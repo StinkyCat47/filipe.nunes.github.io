@@ -12,7 +12,12 @@ $( document ).ready(function() {
     if($.isNumeric(content[i])) {
       firstNumStr += content[i];
       secondNumStr += content[i+1];
-      thirdNumStr += content[i+2];
+      var thirdNumStrAux += content[i+2].split('');
+      for(var j = 0; j < thirdNumStrAux.length; j++) {
+        if($.isNumeric(thirdNumStrAux[j])) {
+          thirdNumStr += thirdNumStrAux [j];
+        }
+      }
     }
     
     var firstNum = parseInt(firstNumStr);
