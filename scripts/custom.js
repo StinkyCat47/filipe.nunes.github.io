@@ -10,15 +10,12 @@ $( document ).ready(function() {
   for(var i = 0; i < content.length;++i) {
       if($.isNumeric(content[i])) {
           if(whichNum == 1) {
-              firstNum += content[i];
-          }
-          if(whichNum == 2) {
-              secondNum += content[i];
-          }
-          if(whichNum == 3) {
-              thirdNum += content[i];
-              
-              shouldSum = i == content.length - 1;
+              firstNumStr += content[i];
+          } else if(whichNum == 2) {
+              secondNumStr += content[i];
+          } else if(whichNum == 3) {
+              thirdNumStr += content[i];
+              shouldSum = (i == content.length - 1);
           }
       } else if(content[i] == 'x') {
           whichNum++;
@@ -26,12 +23,15 @@ $( document ).ready(function() {
           shouldSum = true; 
       }
       if(shouldSum) {
-          var firstArea = parseInt(firstNum);
-          var secondArea = parseInt(secondNum);
-          var thirdArea = parseInt(thirdNum);
-          feet += ( firstArea + secondArea + thirdArea );
+          var firstNum = parseInt(firstNumStr);
+          var secondNum = parseInt(secondNumStr);
+          var thirdNum = parseInt(thirdNumStr);
+          var firstPseudoArea = firstNum * secondNum;
+          var secondPseudoArea = firstNum * thirdNum;
+          var thirdPseudoArea = secondNum * thirdNum;
+          feet += ( 2 * firstPseudoArea) + (2 * secondPseudoArea) + (2 * thirdPseudoArea));
           
-          feet += [firstArea, secondArea, thirdArea].sort()[0] * [firstArea, secondArea, thirdArea].sort()[1];
+          feet += [firstPseudoArea, secondPseudoArea, thirdPseudoArea].sort()[0] * [firstPseudoArea, secondPseudoArea, thirdPseudoArea].sort()[1];
           
           whichNum = 1;
           firstNum = '';
