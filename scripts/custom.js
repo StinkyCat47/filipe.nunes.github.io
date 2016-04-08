@@ -1,8 +1,8 @@
 $( document ).ready(function() {
   
-  var firstNum = '';
-  var secondNum = '';
-  var thirdNum = '';
+  var firstNumStr = '';
+  var secondNumStr = '';
+  var thirdNumStr = '';
   var whichNum = 1;
   var feet = 0;
   var shouldSum = false;
