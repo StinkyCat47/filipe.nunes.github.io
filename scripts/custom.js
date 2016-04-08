@@ -24,7 +24,7 @@ $( document ).ready(function() {
     
     feet += ( 2 * firstPseudoArea) + (2 * secondPseudoArea) + (2 * thirdPseudoArea);
     
-    feet += [firstPseudoArea, secondPseudoArea, thirdPseudoArea].sort()[0] * [firstPseudoArea, secondPseudoArea, thirdPseudoArea].sort()[1];
+    feet += [firstPseudoArea, secondPseudoArea, thirdPseudoArea].sort()[0];
     
     firstNum = '';
     secondNum = '';
