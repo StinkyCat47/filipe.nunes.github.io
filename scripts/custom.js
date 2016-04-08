@@ -29,7 +29,7 @@ $( document ).ready(function() {
           var firstPseudoArea = firstNum * secondNum;
           var secondPseudoArea = firstNum * thirdNum;
           var thirdPseudoArea = secondNum * thirdNum;
-          feet += ( 2 * firstPseudoArea) + (2 * secondPseudoArea) + (2 * thirdPseudoArea));
+          feet += ( 2 * firstPseudoArea) + (2 * secondPseudoArea) + (2 * thirdPseudoArea);
           
           feet += [firstPseudoArea, secondPseudoArea, thirdPseudoArea].sort()[0] * [firstPseudoArea, secondPseudoArea, thirdPseudoArea].sort()[1];
           
