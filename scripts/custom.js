@@ -44,4 +44,4 @@ for(var i = 0; i < content.length;++i) {
     thirdNum = ''; 
     shouldSum = false;
   }
-
+$('#result').text('Result = ' + feet);
