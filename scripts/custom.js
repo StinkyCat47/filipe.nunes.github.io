@@ -40,9 +40,9 @@ $( document ).ready(function() {
       feet += [firstPseudoArea, secondPseudoArea, thirdPseudoArea].sort()[0];
       
       whichNum = 1;
-      firstNum = '';
-      secondNum = '';
-      thirdNum = ''; 
+      firstNumStr = '';
+      secondNumStr = '';
+      thirdNumStr = ''; 
       shouldSum = false;
     }
   }
