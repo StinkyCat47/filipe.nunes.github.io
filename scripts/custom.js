@@ -37,7 +37,7 @@ $( document ).ready(function() {
       
       feet += ( 2 * firstPseudoArea) + (2 * secondPseudoArea) + (2 * thirdPseudoArea);
       
-      feet += [firstPseudoArea, secondPseudoArea, thirdPseudoArea].sort()[0];
+      feet += [firstPseudoArea, secondPseudoArea, thirdPseudoArea].sort(sortNumber)[0];
       
       whichNum = 1;
       firstNumStr = '';
@@ -48,3 +48,7 @@ $( document ).ready(function() {
   }
   $('#result').text('Result = ' + feet);
 });
+
+function sortNumber(a,b) {
+    return a - b;
+}
