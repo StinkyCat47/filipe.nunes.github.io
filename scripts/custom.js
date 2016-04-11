@@ -31,14 +31,18 @@ $( document ).ready(function() {
       var secondNum = parseInt(secondNumStr);
       var thirdNum = parseInt(thirdNumStr);
       
-      var firstPseudoArea = firstNum * secondNum;
+      var orderedNums = [firstNum, secondNum, thirdNum].sort(sortNumber);
+      feet += (2 * orderedNums[0] + 2 * orderedNums[1]);
+      feet += (firstNum * secondNum * thirdNum);
+      
+      /*var firstPseudoArea = firstNum * secondNum;
       var secondPseudoArea = firstNum * thirdNum;
       var thirdPseudoArea = secondNum * thirdNum;
       
       feet += ( 2 * firstPseudoArea) + (2 * secondPseudoArea) + (2 * thirdPseudoArea);
       
       feet += [firstPseudoArea, secondPseudoArea, thirdPseudoArea].sort(sortNumber)[0];
-      
+      */
       whichNum = 1;
       firstNumStr = '';
       secondNumStr = '';
