@@ -5,8 +5,9 @@ $( document ).ready(function() {
       if(houses[i].x == x && houses[i].y == y) {
         return;
       }
-      
-      houses.push({x = x, y = y});
+      var house = {};
+      house.x = x;
+      house.y = y;
     }
   }
   
