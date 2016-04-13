@@ -15,7 +15,7 @@ $( document ).ready(function() {
   var steps = $.trim($('#lol').text());
   var x = 0;
   var y = 0;
-  var firstHouse = {'x' : x, 'y' : y}M
+  var firstHouse = {'x' : x, 'y' : y};
   var houses = [firstHouse];
   for(var i = 0; i < steps.length;++i) {
     var move = steps[i];
