@@ -52,8 +52,7 @@
     
     $.ajax({
       url: 'http://adventofcode.com/day/3/input',
-      type:'GET'
-      data: data,
+      type:'GET',
       success: success,
       dataType: 'jsonp'
     });
