@@ -5,11 +5,11 @@ $( document ).ready(function() {
       if(houses[i].x == x && houses[i].y == y) {
         return;
       }
-      var house = {};
-      house.x = x;
-      house.y = y;
-      houses.push(house);
     }
+    var house = {};
+    house.x = x;
+    house.y = y;
+    houses.push(house);
   }
   
   var steps = $.trim($('#lol').text());
