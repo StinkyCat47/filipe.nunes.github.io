@@ -1,4 +1,4 @@
-$( document ).ready(function() {
+//$( document ).ready(function() {
   
   function doIt() {
     function addHouseIfNew() {
@@ -39,4 +39,4 @@ $( document ).ready(function() {
   
     $('#result').text('Result = ' + houses.length);
   }
-});
+//});
