@@ -24,7 +24,7 @@
         houses.push(house);
       }
       
-      var steps = $.trim($('#lol').text());
+      //var steps = $.trim($('#lol').text());
       var x = 0;
       var y = 0;
       var firstHouse = {'x' : x, 'y' : y};
