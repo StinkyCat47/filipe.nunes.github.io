@@ -12,7 +12,7 @@
       steps = replaceAll(steps, '&lt;', '<');
       steps = replaceAll(steps, '&gt;', '>');
       
-      function addHouseIfNew() {
+      function addHouseIfNew(x, y) {
         for(var i = 0; i < houses.length; ++i) {
           if(houses[i].x == x && houses[i].y == y) {
             return;
@@ -25,30 +25,58 @@
       }
       
       //var steps = $.trim($('#lol').text());
-      var x = 0;
-      var y = 0;
+      var santaX = 0;
+      var santaY = 0;
+      var roboSantaX = 0;
+      var roboSantaY = 0;
+      
       var firstHouse = {'x' : x, 'y' : y};
       var houses = [firstHouse];
+      
       for(var i = 0; i < steps.length;++i) {
         var move = steps[i];
         
+        var x = 0;
+        var y = 0;
+        
         if(move == '>') {
           // RIGHT
-          ++x;
+          if(i%2 == 0) {
+            ++santaX;
+            x = santaX;
+          } else {
+            ++roboSantaX;
+            x = roboSantaX;
+          }
         } else if(move == '<') {
           // LEFT
-          --x;
+          if(i%2 == 0) {
+            --santaX;
+            x = santaX;
+          } else {
+            --roboSantaX;
+            x = roboSantaX;
+          }
         } else if(move == '^') {
           // UP
-          ++y;
+          if(i%2 == 0) {
+            ++santaY;
+            y = santaY;
+          } else {
+            ++roboSantaY;
+            y = roboSantaY;
+          }
         } else {
           // DOWN
-          --y;
+          if(i%2 == 0) {
+            --santaY;
+            y = santaY;
+          } else {
+            --roboSantaY;
+            y = roboSantaY;
+          }
         }
-        addHouseIfNew();
-        if(move != '^' && move != '<' && move != '>' && move != 'v') {
-          alert(move);
-        }
+        addHouseIfNew(x, y);
       }
     
       $('#result').text('Result = ' + houses.length);
