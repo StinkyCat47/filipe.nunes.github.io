@@ -1,4 +1,5 @@
 $( document ).ready(function() {
+  
   function doIt() {
     function addHouseIfNew() {
       for(var i = 0; i < houses.length; ++i) {
@@ -37,9 +38,5 @@ $( document ).ready(function() {
     }
   
     $('#result').text('Result = ' + houses.length);
-  });
-}
-
-function sortNumber(a,b) {
-    return a - b;
-}
+  }
+});
