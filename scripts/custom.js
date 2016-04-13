@@ -54,7 +54,7 @@
       url: 'http://adventofcode.com/day/3/input',
       type:'GET',
       success: success,
-      dataType: 'jsonp'
+      dataType: 'json'
     });
   }
 //});
