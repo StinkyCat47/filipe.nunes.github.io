@@ -1,5 +1,5 @@
 $( document ).ready(function() {
-  function doIt {
+  function doIt() {
     function addHouseIfNew() {
       for(var i = 0; i < houses.length; ++i) {
         if(houses[i].x == x && houses[i].y == y) {
