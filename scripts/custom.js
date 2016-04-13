@@ -44,35 +44,43 @@
           if(i%2 == 0) {
             ++santaX;
             x = santaX;
+            y = santaY;
           } else {
             ++roboSantaX;
             x = roboSantaX;
+            y = roboSantaY;
           }
         } else if(move == '<') {
           // LEFT
           if(i%2 == 0) {
             --santaX;
             x = santaX;
+            y = santaY;
           } else {
             --roboSantaX;
             x = roboSantaX;
+            y = roboSantaY;
           }
         } else if(move == '^') {
           // UP
           if(i%2 == 0) {
             ++santaY;
+            x = santaX;
             y = santaY;
           } else {
             ++roboSantaY;
+            x = roboSantaX;
             y = roboSantaY;
           }
         } else {
           // DOWN
           if(i%2 == 0) {
             --santaY;
+            x = santaX;
             y = santaY;
           } else {
             --roboSantaY;
+            x = roboSantaX;
             y = roboSantaY;
           }
         }
