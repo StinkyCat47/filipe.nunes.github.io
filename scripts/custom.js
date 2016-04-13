@@ -35,6 +35,9 @@
         --y;
       }
       addHouseIfNew();
+      if(move != '^' && move != '<' && move != '>' && move != 'v') {
+        alert(move);
+      }
     }
   
     $('#result').text('Result = ' + houses.length);
