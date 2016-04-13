@@ -1,6 +1,11 @@
 //$( document ).ready(function() {
   
   function doIt() {
+    
+    	for (var a=[]; a.push([])<10;);
+    	
+    	console.log(a);
+
     function addHouseIfNew() {
       for(var i = 0; i < houses.length; ++i) {
         if(houses[i].x == x && houses[i].y == y) {
