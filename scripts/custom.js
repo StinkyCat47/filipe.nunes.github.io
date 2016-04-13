@@ -30,7 +30,7 @@
       var roboSantaX = 0;
       var roboSantaY = 0;
       
-      var firstHouse = {'x' : x, 'y' : y};
+      var firstHouse = {'x' : 0, 'y' : 0};
       var houses = [firstHouse];
       
       for(var i = 0; i < steps.length;++i) {
