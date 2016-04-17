@@ -6,7 +6,7 @@ function doIt() {
   for(var i = 0; result == ''; ++i) {
     var thisHash = md5.hash(stringToHash + i.toString());
     if(thisHash.length > 5 && thisHash.substring(0, 5) == '00000') {
-      result = stringToHash;
+      result = stringToHash + i.toString();
     }
   }
     
