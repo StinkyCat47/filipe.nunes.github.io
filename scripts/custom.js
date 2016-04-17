@@ -10,7 +10,7 @@ function doIt() {
     }
   }
     
-  $('#result').text('Result = ' result);
+  $('#result').text('Result = ' + result);
 }
   
 function replaceAll(str, find, replace) {
