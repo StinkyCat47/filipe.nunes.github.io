@@ -1,105 +1,172 @@
-//$( document ).ready(function() {
+function doIt() {
   
-  function doIt() {
-    
-    //function success(data) {
-      
-      //$('#lol').text(data);
-      //var steps = $.trim($('#lol').text());
-      
-      var steps = "^^&lt;&lt;v&lt;&lt;v&gt;&lt;v^^&lt;&gt;&lt;&gt;^^&lt;v&lt;v^&gt;&gt;^^^&gt;&lt;^&gt;v^&gt;v&gt;&lt;&gt;&lt;&gt;&lt;&lt;vv^^&lt;^&gt;^^&lt;v^&gt;v&gt;v^v&gt;&gt;&gt;^&lt;&gt;v&lt;^&lt;v^&gt;&lt;^&gt;&gt;&gt;&gt;&gt;&lt;&lt;v&gt;&gt;^&gt;&gt;^&gt;v^&gt;&gt;&lt;&lt;^&gt;v&gt;v&lt;&gt;^v^v^vvv&gt;&lt;&gt;^^&gt;v&gt;&lt;v&lt;&gt;&lt;&gt;^&gt;&lt;^^&lt;vv^v&lt;v&gt;^v&gt;&gt;^v^&gt;v&gt;&lt;&gt;v^&lt;vv&gt;^&gt;&lt;&lt;v^&gt;vv^&lt;&lt;&gt;v&gt;&gt;&gt;&lt;&lt;&lt;&gt;&gt;^&lt;vv&lt;^&lt;&gt;^^vv&gt;&gt;&gt;^&gt;&lt;&lt;&lt;&lt;vv^v^&gt;&gt;&gt;&lt;&gt;&lt;^&gt;v&lt;&gt;^&gt;v&lt;v^v&lt;^vv&gt;&lt;^v^&gt;&lt;&lt;&lt;&lt;&gt;^&lt;&gt;v&gt;^v&gt;v&lt;v&lt;v&lt;&lt;&gt;v&lt;^&lt;&lt;&lt;v&gt;&gt;&gt;&gt;&gt;^^v&gt;vv^^&lt;&gt;^&lt;&gt;^^^^&lt;^^^v&lt;v^^&gt;v&lt;^^v^^&gt;v&gt;^v^^^^&gt;&gt;&lt;&lt;v&lt;&gt;v&lt;&gt;^v^&lt;v&lt;&gt;&gt;&lt;&gt;^^&gt;&lt;&lt;^^&lt;^^&gt;vv&lt;&gt;v^&lt;^v&lt;vv&lt;&lt;&lt;&gt;^&gt;^^&gt;^&lt;&gt;v^^vv&lt;&gt;&gt;v&gt;&lt;&lt;&lt;&gt;vvv&lt;&gt;v&lt;&gt;&gt;&lt;^&lt;^v&lt;&gt;^vv&gt;^^v&lt;v&lt;v&gt;&lt;^&lt;&gt;&gt;vv&lt;^&gt;&gt;^&gt;&gt;vv^v&lt;vv^vv&lt;^&lt;&lt;&gt;&gt;^v^&lt;&gt;^&gt;&gt;&gt;&gt;vv&gt;^^&gt;v&gt;vv&gt;v&gt;&lt;^vv^&lt;&lt;v&gt;^&lt;&lt;^^&lt;v&lt;v&gt;vv&lt;v^^&lt;&gt;^^v&gt;^&gt;&gt;v&gt;&lt;^&lt;&lt;vv&lt;&lt;v^vv^^^v&gt;&gt;v&lt;&lt;v^&gt;&lt;vv^&gt;&lt;vv&lt;^vv&lt;&lt;vv^v&lt;&lt;^v&lt;^^v&gt;&gt;&lt;&lt;v^&gt;&gt;^^&lt;&gt;v&gt;&gt;&lt;&lt;v&lt;&gt;&gt;^^&lt;v&gt;&gt;^^&gt;&gt;vvv^&gt;&lt;&lt;&lt;&lt;&lt;^&lt;^vv&lt;^&lt;&gt;&lt;v&lt;&lt;&gt;^^^&lt;&lt;&lt;^&gt;^^^&lt;v&lt;&lt;vv&gt;vv&lt;&gt;^&lt;&gt;v&lt;^v&gt;^&lt;&lt;&lt;v&lt;v&lt;v&gt;&gt;^v&lt;&gt;&gt;v&lt;&lt;^&lt;&lt;v&lt;&lt;&gt;^&lt;&lt;&lt;&gt;&lt;&gt;&lt;&gt;^&gt;&gt;&gt;&gt;^&gt;v^v&lt;&lt;v&lt;v&lt;&lt;&gt;&gt;vv&lt;^vvv^^^^&lt;vv&gt;vv&gt;^v^^v^&lt;v^v&gt;&lt;^vv&lt;^vv&gt;v&lt;^&gt;vv&lt;&gt;&gt;^&gt;^&gt;&lt;vv&lt;&gt;&lt;^&gt;v&gt;^v&gt;vvv&lt;&gt;^&gt;^v&lt;&gt;&lt;&gt;vv&gt;&gt;&lt;^v^&lt;&gt;&lt;&gt;&lt;v&gt;&gt;v^v^&gt;&lt;^&lt;^&gt;vv&gt;v&lt;^&gt;vvv&gt;v&lt;&lt;&lt;&lt;&lt;^&lt;v&lt;&lt;vv&lt;^^^&lt;&lt;&gt;&gt;^v&lt;vv&lt;^&lt;&gt;v&gt;^&lt;v&lt;&gt;&gt;&lt;&gt;&lt;&gt;^&lt;&lt;v&gt;v^&gt;^&lt;vv&gt;&gt;&lt;&gt;&lt;&gt;&gt;^&gt;^&gt;&gt;&lt;^&lt;v&gt;^^&gt;^^&gt;^^v^^&lt;^v^^&gt;v^^&gt;&gt;&gt;&lt;&lt;&gt;&lt;v&lt;v&lt;&lt;v^vv&lt;&gt;&lt;&gt;&lt;&gt;^&lt;v&gt;^&lt;&lt;^^v^&gt;v&gt;&gt;&lt;&gt;^^^&gt;&lt;^vvv&lt;^^^^^v&gt;&lt;&lt;&gt;&lt;v&lt;^^v&gt;&lt;&gt;&lt;&gt;&gt;^&gt;vv&lt;vvvv&lt;&lt;&gt;&gt;&gt;&lt;v&lt;^^^^v&lt;&lt;^&gt;&lt;v&gt;^vv&lt;v^^v^vv&lt;^^&gt;^^&lt;v&gt;&gt;&lt;&lt;v^&gt;v&lt;^^&gt;^&lt;^&lt;v&lt;^^v&gt;^&lt;&lt;v&gt;^&gt;&gt;&gt;^v&lt;&gt;v&lt;^^^&gt;vvv^v&lt;&lt;^&gt;&lt;&gt;&gt;&gt;&lt;vvv^&lt;^^^&lt;^&gt;&gt;v&gt;&gt;&gt;&lt;v&gt;^^vvv^vvv&lt;^^^^v^v^&lt;vv^&lt;v&gt;^&lt;&lt;^&gt;v^v^&lt;&lt;&gt;&lt;&gt;&gt;&lt;^v&gt;&lt;v&lt;&gt;&lt;&lt;&gt;&gt;&lt;&lt;&lt;&gt;^v&gt;v&lt;&gt;^&lt;v^v&gt;^vv&gt;&gt;^&lt;&gt;v^^&lt;&lt;v&gt;&lt;^v&gt;&gt;v&lt;&gt;&gt;^v^^&gt;&gt;&lt;^&gt;v^&lt;^v^^&gt;&gt;&lt;&gt;v^&gt;^v^v&lt;&lt;&lt;v^&lt;v^^v&lt;^&gt;v&lt;&gt;&lt;&gt;vv&gt;&gt;&gt;&gt;^&gt;v&lt;&gt;v&lt;&lt;&lt;&gt;^^&gt;vv^v&lt;&gt;&lt;v^&lt;&gt;^&lt;&lt;&lt;&lt;&gt;&gt;^^&gt;^v&lt;v^v&lt;&lt;&gt;&lt;&gt;^v&lt;&gt;&gt;^v^&lt;&lt;^&lt;^&gt;&gt;&gt;^vv&lt;&gt;&lt;v&lt;^^&lt;&gt;v^&gt;&gt;v&lt;^^v&lt;v&gt;&gt;&gt;^&gt;&gt;&lt;&lt;&gt;&lt;&lt;&lt;&gt;&gt;&lt;vv&lt;v&gt;&gt;^v&gt;&gt;&lt;^&lt;v&gt;&lt;vv&gt;^vv&lt;v&lt;&gt;&gt;&gt;&lt;&gt;v^&gt;&lt;&gt;vv&lt;^^v^^^v&lt;&gt;&gt;&lt;^vvv&lt;&lt;^&lt;&gt;v&gt;&gt;&gt;v&gt;&gt;&lt;v&gt;&lt;&gt;&gt;&gt;&lt;&gt;&gt;&lt;v^&gt;&lt;v^v&lt;v&gt;^v&gt;v&lt;v&gt;&gt;^^&lt;^&gt;^&gt;v&gt;&lt;&gt;vv&gt;^v&gt;&lt;&lt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;^&lt;&lt;^vv^^vvvv&lt;^^&gt;&lt;&lt;&lt;v&lt;&lt;&gt;vvv&lt;&gt;^&gt;&lt;&lt;v&lt;v^v^&lt;&lt;v&gt;v&lt;&gt;&gt;^&lt;vv^&lt;v&lt;v&gt;^&lt;&lt;^^vv&gt;v&gt;^&lt;vv&lt;&lt;&gt;v&lt;v^&lt;&gt;v&gt;&gt;^v^^vvvv&gt;^^&gt;&gt;v^v^^&gt;&lt;&lt;^&gt;v&gt;&gt;^^&gt;^&lt;^^&lt;&gt;v&lt;v&gt;vv^vv&gt;v&lt;v&gt;&gt;^v&lt;&gt;&lt;^vv^&lt;vv&lt;v^^^v&lt;^v^&gt;&gt;^v&gt;&gt;&gt;^^&lt;^&lt;^&gt;^v^&gt;^&gt;&gt;&gt;^v&gt;^&gt;^^^&gt;&gt;^&lt;&gt;v^^&lt;&gt;^v&lt;&lt;^^&gt;^^&lt;vv&lt;&gt;v&lt;^v^&gt;&gt;&lt;^v^&gt;^&lt;&gt;&gt;^vv^vv^&gt;v^&lt;vvvvvv^&gt;&gt;&lt;^^&lt;^v&lt;^&lt;v^&lt;&lt;^^&lt;&lt;v^&lt;^&gt;&gt;&lt;&gt;v&gt;&lt;^v^v^^^v&gt;v^&lt;&gt;^&lt;&lt;v&lt;^^vvv&lt;v&gt;^^&gt;^v^^&lt;&gt;&lt;vv^v^&gt;v^&lt;&lt;&gt;&gt;vv&lt;&gt;&gt;&gt;&gt;v&gt;v&lt;&gt;^&gt;&gt;&gt;v&lt;&gt;^^&gt;&lt;v&lt;v^^^&lt;&gt;^&lt;^&gt;&lt;&gt;^&gt;&lt;&lt;v&gt;&gt;&lt;&gt;^&lt;&lt;&gt;&gt;&gt;&lt;&lt;^&lt;vvv&lt;^&gt;&lt;v&gt;&gt;^vv^v&gt;&gt;&lt;v&lt;&gt;vv^&lt;&lt;^^&lt;&lt;&gt;&lt;v&gt;&lt;&lt;^&lt;v&lt;vv&lt;&lt;^v^vv&gt;v^&gt;&gt;&gt;v&lt;&lt;&lt;&lt;v&lt;&lt;&gt;v&gt;^vv&lt;^v&gt;&lt;v&lt;v&gt;v&lt;^&gt;^^vv&gt;v&gt;&lt;v&gt;&gt;&lt;&lt;v&lt;&lt;v^v&gt;&gt;&gt;&lt;&gt;^&lt;&gt;&gt;&lt;&gt;&lt;&lt;^&lt;&lt;^v^v&lt;&lt;v&gt;v&gt;v&lt;v&lt;^^&gt;vv&lt;^v^^^&lt;v^&lt;&lt;&lt;v&lt;&gt;v^&gt;&lt;^v&gt;^&lt;^&lt;v&gt;&gt;^&lt;&lt;&lt;v&gt;&gt;v^&lt;&gt;&lt;&gt;&gt;^v&lt;&gt;vvv&lt;vvvvv&lt;^^&gt;&lt;^&gt;&gt;&lt;^^&gt;^&gt;^v^vv&lt;^&gt;&lt;&lt;^v&gt;&gt;&lt;^^v&gt;^v&lt;&gt;^&gt;vvvv&gt;&lt;^&gt;^&lt;&lt;v^^vv&lt;v^^&lt;&gt;&lt;&gt;v&gt;^&gt;&gt;^&lt;^&lt;&lt;&lt;^v^^^&gt;^&gt;&gt;^&gt;&gt;&lt;&gt;&lt;&lt;^&gt;v^^&lt;v&gt;&gt;v&lt;&lt;&lt;&lt;vvv&lt;vvvv^&lt;^&lt;v^^&lt;&gt;^&gt;vvv^&lt;vv^v^v&gt;^&lt;&lt;&gt;&lt;v&gt;&lt;^v^v^^^&gt;^^&gt;^vv&lt;&gt;v&gt;&gt;v^&gt;vv^vv&gt;v&lt;^v^^&gt;&gt;^v^v&lt;&gt;&gt;^^&gt;&lt;&lt;v&lt;&lt;&gt;&gt;&lt;&gt;&gt;&gt;^&gt;^&lt;&gt;^^v^^&gt;&lt;^&lt;&gt;&gt;&lt;&lt;^&lt;vv^^^^^&gt;&gt;vv^&lt;v^&lt;^&gt;&gt;&gt;&gt;v&lt;&lt;&gt;&lt;&lt;^&gt;vv&gt;vvv&gt;^&lt;&gt;&lt;&gt;&gt;&gt;&gt;vv&gt;&lt;&lt;v^v&lt;^^^&lt;&lt;^^^vv^&lt;v&lt;&gt;&lt;&gt;&lt;&lt;&lt;&lt;&gt;&gt;&lt;&lt;v^&lt;&gt;v&gt;v^&gt;&lt;&gt;v^v^^&gt;&lt;&gt;v&gt;v&gt;^^v&lt;^v&lt;&gt;&gt;^^^^^&lt;v&gt;&gt;&lt;v^&gt;^^&lt;v&gt;&gt;&lt;v^^&gt;v&lt;^&lt;^&gt;&gt;&gt;^&gt;&lt;^^&gt;&gt;&lt;&lt;&gt;&gt;^&gt;&lt;&gt;^^^&gt;v^^^&gt;^^v^&lt;&gt;^^&gt;&lt;^&gt;&gt;&gt;&lt;&gt;&lt;^&gt;&gt;v&lt;v^&gt;v&lt;^&gt;&lt;v&lt;v^&lt;&gt;v&lt;^v&gt;v^&lt;^vv^^&gt;&lt;&lt;&lt;&gt;&lt;&gt;&lt;^v^&lt;v&lt;^^&gt;v&gt;v^&gt;&gt;^^vv^&lt;v&gt;^v&gt;^&lt;^v&lt;&gt;^&gt;^&gt;&lt;^&lt;v&gt;^v&gt;&lt;^&lt;^&lt;&gt;v^^&gt;^&gt;&lt;&gt;&gt;&gt;&lt;&lt;v&gt;&lt;&lt;&gt;&lt;&gt;v&lt;&lt;^v^^&lt;^&gt;&lt;&gt;^&lt;&gt;&lt;&gt;&lt;v&gt;v&lt;^^&lt;v&lt;v&gt;&gt;^^&lt;&lt;&gt;&gt;^&lt;v&gt;&gt;&lt;^&gt;&lt;^&lt;^&gt;^^v&lt;&gt;v&gt;&gt;&gt;&lt;&gt;&lt;&lt;&gt;^&gt;v&gt;&lt;&gt;&lt;&lt;&lt;&lt;v^^^^v&lt;&gt;&gt;^^^v&gt;&gt;&lt;&lt;^v&gt;^&gt;&gt;&gt;&lt;vv^&gt;&gt;^vv&lt;^&lt;&gt;&gt;^&lt;^^&lt;^v&gt;v&lt;v&lt;&lt;&lt;&lt;&lt;&gt;^&lt;&lt;^&lt;&lt;&lt;&lt;&lt;^&lt;^&gt;&gt;^&gt;&lt;&lt;&gt;&gt;&lt;&gt;v^v&gt;^&lt;^&gt;v^&lt;&gt;&lt;vvv^&gt;^v^v^v&gt;&lt;^&lt;v&lt;&gt;vv&lt;&lt;^&lt;&gt;^^^&lt;&gt;^v&gt;^&lt;v^^&lt;v^v&gt;v&lt;&gt;&gt;^&gt;v&lt;&lt;&gt;v&lt;&gt;v^v&gt;v&lt;&lt;&lt;&gt;&gt;v&gt;vv&gt;&gt;v&lt;&lt;&gt;v&lt;&gt;v&lt;^&gt;^&gt;^&lt;v&gt;&gt;v&gt;^&gt;^^^&lt;vv&gt;v&lt;&lt;&gt;&gt;&gt;&lt;v&gt;^vvv^^&gt;^^&lt;^vv^^^^&gt;v&gt;^v^&gt;v^^v^&gt;&gt;^v&gt;^vv&gt;^^v^&lt;&lt;&lt;&lt;&gt;^&lt;&gt;&lt;^&lt;^&lt;&lt;^^&gt;v^^^v&lt;&gt;&gt;vvv&lt;v&gt;&gt;vv&gt;&lt;v&lt;v&gt;^&lt;^v&gt;&gt;^v&lt;vv^&lt;&lt;v&lt;vv&gt;&lt;^^v^v&gt;v&lt;&gt;^v&lt;&lt;&lt;^^v^^^&lt;^v&gt;v^v^v&gt;&gt;&lt;vvv&lt;&lt;&gt;v&lt;&gt;^v&gt;vv^v&gt;vv&lt;&lt;^v&lt;v&gt;^v&gt;v&gt;&gt;&lt;^v&lt;v&lt;&gt;v&gt;&gt;&gt;&gt;&lt;&lt;&lt;&gt;&lt;vv&gt;&lt;&gt;^v^&lt;^vvv&gt;v&lt;&gt;&gt;&lt;^v&gt;^&gt;&gt;&lt;v&gt;vv&lt;&gt;&lt;&gt;&lt;&gt;v&gt;&lt;&gt;&gt;&gt;&lt;^&gt;vv&gt;&gt;^&lt;&gt;v^&gt;&gt;^&gt;&lt;&lt;&lt;^&gt;&lt;&lt;&gt;^v^&gt;&gt;&gt;&lt;&gt;&lt;&gt;vv&gt;^&lt;&gt;^&gt;^v^^&gt;&lt;^&gt;&gt;&gt;&lt;&lt;&gt;v^&lt;^vv&gt;^&lt;^vv&gt;&gt;&lt;v&lt;&gt;vv&lt;v&gt;&lt;&gt;&lt;&lt;^&gt;&lt;&gt;v&lt;^^&lt;^&gt;vv^^^^vv&lt;&lt;v&gt;&lt;&gt;vv&lt;&gt;&lt;v&gt;v&lt;&gt;&gt;&gt;&gt;^&gt;&lt;v&gt;&lt;&gt;^&lt;&gt;&lt;&gt;v&lt;&gt;&gt;&lt;&lt;&gt;^^vvv&gt;^^^&lt;&gt;&lt;&gt;&gt;vvv^v&gt;&gt;&lt;&gt;vv&lt;vv&gt;^^^v^&lt;&lt;&gt;^^v&lt;&gt;&lt;&lt;^^v&lt;&gt;^^&gt;^&lt;^^v&gt;&gt;v^v^^&gt;&gt;v&gt;&gt;&gt;^&lt;&lt;^&lt;&gt;^&gt;^^v&gt;&gt;&gt;&gt;&lt;vv&lt;&lt;&gt;^v&lt;&lt;vv&gt;&lt;&lt;^^vv&gt;&lt;^&gt;vv&lt;&gt;&gt;v&lt;v&gt;v^&gt;v&gt;&gt;v^&lt;vv&lt;&lt;&lt;v&gt;&lt;v^&gt;vvv^^&gt;vv^&lt;&lt;v&gt;v^&gt;&gt;v^&lt;&gt;&gt;&gt;&lt;&gt;&lt;&lt;^^&lt;^v&gt;^&gt;&gt;&gt;v&gt;v&gt;^v&lt;&gt;vv&gt;&lt;vv&lt;vvv&lt;&lt;v&gt;v&gt;^v&lt;&lt;&lt;&gt;&gt;&lt;&lt;&gt;&lt;&gt;&lt;&gt;v^&gt;&gt;&gt;v^&gt;v^&gt;&gt;vv^^&lt;v&gt;^&lt;&gt;&gt;&gt;&lt;^&gt;v^&lt;&gt;^^&gt;&lt;v&gt;v&lt;&gt;&lt;&lt;&lt;&gt;&lt;v^v&lt;&lt;&lt;v&lt;v^&gt;v^v&gt;^&gt;v&lt;^&lt;&gt;v&gt;v^^&gt;&gt;v&gt;vv^v&lt;&gt;&gt;^^^^&lt;&gt;v^&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&lt;v&lt;^&lt;&lt;vvv&lt;^v^&gt;^v&lt;^&lt;&lt;&gt;&gt;&gt;&lt;&lt;&lt;^&lt;&lt;^&gt;^&gt;v^&lt;&gt;^&lt;&lt;&lt;&gt;v&gt;&gt;&lt;^vv^&gt;^&gt;^&gt;&gt;&gt;^&lt;vv&gt;&lt;v^^^&lt;v^&lt;v&lt;&gt;&lt;v^vvv&lt;&gt;v&lt;vvv^vv&lt;&lt;&lt;v^&lt;^&lt;^vvvv^&lt;&lt;vv&lt;^v&gt;&lt;&lt;&gt;^&gt;^&lt;v^v^&lt;^&gt;v^&gt;&lt;&gt;&gt;v^&gt;v^&gt;^&gt;&gt;v&lt;&gt;vv^v&lt;&lt;&gt;^^&gt;&gt;vv&lt;&gt;vv&gt;&gt;^v&lt;^vv&gt;^v&gt;v&lt;v^vvv^&lt;&lt;^&gt;&lt;&gt;v^&lt;&gt;&lt;vv&gt;&lt;&gt;v^^&gt;&lt;&lt;&lt;&gt;&lt;&gt;^&gt;^v^&lt;&gt;&gt;&lt;vv&lt;^&gt;v^v&gt;v&lt;&gt;&gt;&lt;v&lt;&lt;^&gt;^&lt;vv&lt;^v&gt;^&lt;&lt;v&gt;&lt;^&lt;^^vv^&lt;&gt;&gt;&lt;v^&gt;^vv^&lt;&gt;&gt;^^^^v&gt;v&gt;&lt;^^^v^&lt;&lt;&lt;&gt;^&lt;^&lt;&lt;&gt;&gt;&lt;&gt;&gt;v&lt;&lt;^v^&gt;&gt;&lt;&gt;&lt;v^&gt;&gt;^vv^v&gt;vv&gt;&gt;&gt;&gt;&gt;&gt;^^&lt;&lt;&gt;v^&gt;v^v&gt;^^&gt;&gt;&gt;&lt;vv^^^v&gt;^v&gt;&gt;^^^&lt;&gt;&gt;&lt;&gt;v^&lt;&lt;&lt;v&lt;vv^^&lt;v^&lt;&lt;&lt;&gt;v&gt;v^^^&lt;vv&lt;&gt;&gt;^v&gt;^v&lt;^&lt;&lt;&gt;&lt;&gt;vv&gt;^^^&lt;^^vv&lt;v&lt;&lt;vv&gt;^^&gt;vv&gt;v&lt;&lt;^&gt;^vv&gt;&lt;^&gt;&lt;v&gt;^^^^v&lt;&lt;vv&gt;v^&lt;&lt;^^&gt;&gt;^^vvvv^v^&gt;vv&gt;&gt;v^&lt;v&gt;vvv&lt;&gt;&gt;^&gt;&lt;&gt;&gt;v^^&gt;&gt;^&lt;&gt;&gt;vvvv^&gt;&gt;&lt;v^v&lt;^^&lt;^vv&gt;&gt;v&lt;&lt;^&lt;&lt;^&gt;&lt;v^^&gt;&lt;v^&gt;v^&gt;&gt;&lt;&lt;&lt;v&gt;v&gt;v^&gt;^v&lt;v^vv&lt;^^^v&lt;^&lt;vvvvv&lt;&lt;vvv&gt;&gt;&lt;&gt;v&lt;v&lt;v&lt;&lt;^v&lt;&gt;&lt;&lt;&gt;vv&gt;&gt;&lt;v&gt;&gt;&lt;^&gt;&gt;^^v&gt;^&gt;&gt;&lt;&gt;vv^&gt;&lt;&lt;&gt;&gt;vv&lt;&lt;&lt;^&lt;^^&gt;^&lt;&lt;^&gt;&gt;&gt;&gt;&lt;v&lt;^v&lt;&lt;&lt;&gt;&gt;v&gt;vv&lt;^&gt;^v&gt;&lt;&gt;&gt;v&lt;v^v&lt;&gt;v^vvvv&gt;v^&gt;&gt;v&gt;&lt;&lt;^&lt;v&gt;^^v&gt;&gt;vv^^&gt;v&gt;^v&gt;^v^^&gt;^&lt;^vv&lt;v&lt;&lt;^&gt;vv&lt;&lt;^&gt;&gt;^&lt;&lt;^^&gt;&gt;^&lt;^&gt;v^&gt;&lt;^vv&gt;^^v&gt;&lt;v^&gt;&gt;&gt;&lt;&gt;v^v&gt;^v&lt;^&gt;&lt;&lt;&lt;&gt;vv&gt;&lt;v&gt;v&lt;&gt;&lt;&gt;&gt;v^&lt;&gt;^^&gt;^&lt;&gt;^&lt;&lt;^&gt;&gt;vv^&gt;&lt;^&lt;v&lt;^^vvv&gt;&gt;v^&gt;&gt;v^&gt;v&gt;vv&gt;&lt;&gt;&gt;v&lt;^&gt;&gt;&lt;&lt;&lt;v&lt;&lt;vv&gt;&lt;v&lt;v&lt;v&gt;v&lt;v&gt;vv^vvv^vv^&gt;^&gt;v&gt;&lt;vv&lt;v^^&lt;&gt;&gt;&gt;&gt;vv^&gt;^&lt;&gt;v&lt;^&gt;^&lt;^v&gt;vv&lt;^&lt;&lt;&gt;&gt;^&lt;^&lt;vv&gt;&lt;^^&lt;&gt;^&lt;&lt;v^v^&gt;v&lt;&lt;&gt;&lt;v&gt;v&gt;&gt;&lt;^v&lt;&lt;^vvv&gt;v&gt;v&lt;&lt;^^&lt;^^&gt;v&lt;vv&lt;v&lt;v^v&gt;^^^&gt;^&gt;vv&lt;v&lt;&lt;^^v^&lt;v&lt;^&gt;^^^vv&gt;v&lt;&gt;&gt;&gt;vv&gt;&gt;&lt;&gt;&lt;^&gt;&lt;&gt;&lt;&lt;&lt;vvv&lt;&lt;^^v^&lt;v^&lt;&lt;^&gt;&gt;vv&gt;vv^v^&gt;&gt;&gt;&lt;v&gt;&lt;&lt;v^v&gt;&gt;v&gt;&gt;vv&gt;^^vvv^&gt;^^&gt;^&gt;^&gt;^v&lt;&lt;^vv^&gt;vvv^^vv&gt;&lt;^&gt;^v^&gt;^&gt;&lt;&gt;v&lt;^^vv&lt;v&gt;&lt;v^&lt;&gt;&lt;^&lt;&gt;&gt;&lt;v&gt;^^v^v&gt;v^vv&lt;&gt;&gt;&lt;^v&gt;^&lt;^v&gt;^&lt;&gt;^v&gt;&gt;&gt;&gt;&lt;&lt;vv^^^vv^&gt;&gt;&gt;&lt;vv^v&gt;&gt;v&gt;&lt;^v^vv&gt;&lt;&lt;^v&lt;&lt;&gt;^^&lt;v&gt;&lt;^v&gt;vvv&lt;&gt;&lt;^^&gt;&lt;&lt;^v&gt;&lt;&gt;^&lt;^v&lt;^^&lt;^vvvv^^&gt;&gt;&gt;&gt;vv&gt;v&gt;&gt;&gt;v&lt;v^&gt;&lt;&lt;&lt;&lt;v&gt;&gt;v^&gt;&lt;v&gt;&gt;vv^v&lt;vv&lt;&gt;vv&lt;&gt;vvv&gt;&gt;&gt;&gt;&lt;&gt;&gt;&gt;&lt;&gt;^v&lt;v^v&gt;&lt;vvv&lt;&lt;v^^v^v&lt;&gt;&gt;&gt;&lt;&gt;&gt;^vv&lt;&lt;v&lt;&gt;&lt;&lt;vv&lt;v^&gt;^^vv&gt;&lt;^v^v&lt;v^vvv^v&gt;v^^^vv&gt;^&gt;&lt;^vvv&lt;&lt;&gt;^vvv^&lt;v&lt;v^v&gt;&gt;&gt;&gt;^&lt;&lt;&lt;&gt;&lt;&lt;&lt;&lt;&lt;^v&lt;^^&gt;&gt;&gt;&gt;^&gt;^&lt;v^^^v&lt;vvv&lt;vv^&lt;&gt;v&lt;&lt;&lt;^&lt;^&gt;&gt;v^&lt;v&gt;&lt;&lt;&gt;&lt;&lt;^^vvv^&gt;v&lt;&gt;&gt;^^&gt;v&gt;^v&gt;&gt;v&lt;v&gt;&lt;v&gt;&gt;&gt;&gt;^&lt;^&lt;^&gt;v^v&lt;vv&lt;&gt;^&gt;&gt;&lt;&gt;^&lt;&lt;^vvv^^&lt;&gt;^&lt;vvv&lt;&gt;v^&gt;^^&lt;&lt;^&gt;^vv&gt;&lt;vvv&gt;&gt;v^v^&gt;v&gt;&lt;v&gt;^&lt;^^&lt;&gt;^&gt;^&gt;&gt;&gt;^^vvv^&lt;&lt;&gt;v^&lt;&lt;&gt;&gt;&lt;&gt;v&lt;^&lt;^&gt;v^&gt;^vv&gt;&lt;v&lt;^&lt;&lt;&lt;^v&gt;^&gt;&gt;^&lt;^v^&lt;&lt;&lt;&lt;^v^&gt;&lt;v^v&gt;v^&gt;&lt;&lt;v&lt;&gt;&lt;&lt;v^&lt;&lt;^&lt;&lt;v&lt;&lt;v&gt;&lt;v&gt;&lt;&gt;&lt;^^^^&gt;v&gt;^^&lt;v&gt;&gt;v&lt;vvv&lt;&lt;&lt;&gt;&gt;&lt;&gt;&gt;^&gt;&lt;&lt;&gt;&lt;^&lt;&gt;&gt;^^&gt;vv&lt;^&gt;&lt;^v^&gt;&lt;vvv&gt;&gt;&gt;vvv&lt;&lt;vv^&lt;^^^&lt;^&gt;^&lt;&gt;&gt;^&gt;&gt;^v^&lt;^^v&gt;^&lt;v&lt;&lt;&gt;^^v&lt;^vv^&gt;&lt;vvv&gt;&gt;^v&gt;&lt;&lt;^&lt;v^&lt;&gt;&lt;&gt;&lt;&gt;&gt;^&gt;vv&lt;&lt;&gt;^^^v^^&lt;v&lt;&gt;&gt;&lt;&gt;&gt;vv&gt;v^&gt;vvv^^v&lt;vv&lt;^&lt;^&gt;&gt;^&gt;&gt;^&gt;&gt;v^&lt;&lt;&lt;v^&gt;v^&lt;^v^vv^&gt;&lt;^&lt;^v&lt;&lt;v&lt;&lt;&gt;v&gt;^v^&lt;&lt;&lt;v^vv&lt;v&lt;&lt;&gt;^^&lt;v&gt;&gt;&gt;^&lt;v&lt;^&gt;^^v&lt;v&gt;&gt;&gt;&gt;&lt;vv&lt;^^&lt;&lt;&gt;&gt;&lt;&lt;v&lt;v&gt;^^v^&gt;&gt;^^&gt;&gt;^v^&lt;^v&gt;v^v^v^v^&gt;v^vv&lt;&gt;&lt;&gt;^^&lt;&gt;^&gt;&lt;^^^&lt;&lt;&lt;^&lt;v&gt;v&lt;&lt;&gt;^&lt;^^^^^v^&lt;^&lt;&lt;^^&gt;^vv&lt;&gt;v^&gt;&gt;&lt;&gt;&gt;^&gt;v&gt;v&lt;&gt;^&gt;v&lt;v^&gt;&gt;&gt;&lt;&gt;^&lt;&gt;&lt;v&gt;&gt;&gt;^&gt;^&gt;&gt;v^&gt;&lt;v&lt;&gt;v&gt;&lt;^vv^&gt;v&lt;&lt;v&gt;v&lt;&gt;&lt;&lt;vv&lt;&lt;v&gt;^&gt;&lt;^&lt;v^&gt;v&lt;&lt;v^v&lt;&lt;&gt;&lt;v&gt;&lt;&gt;v&lt;v&gt;&lt;&gt;^^&lt;v&lt;&gt;&gt;&lt;&lt;&gt;v&gt;vv&lt;&lt;v&gt;^v&lt;v&gt;vv&gt;&lt;&gt;&lt;&gt;vv^&lt;&lt;&gt;^&gt;^&lt;^&gt;&gt;&gt;^v&gt;v&lt;^v^^^vv&lt;&gt;&gt;&gt;^&lt;&lt;^&gt;&gt;&gt;&lt;&lt;^^v^&gt;v^&lt;^v&gt;vvv&gt;v^^vv&gt;^^&gt;&gt;v&lt;&gt;^&lt;&lt;&gt;^&lt;&gt;&lt;^^v^&gt;&gt;&lt;&gt;^&gt;v&gt;&gt;^^^&lt;&lt;^^v&lt;&gt;^^&gt;^&lt;&gt;^&gt;&gt;&lt;^&gt;^vvv&gt;&lt;^&gt;^&lt;^&gt;^&gt;&gt;vv&lt;^&gt;&gt;^v&gt;&gt;^&lt;&gt;&gt;^^&gt;&gt;&gt;v^&lt;v&gt;&gt;v&lt;&lt;v&lt;^&gt;&gt;v^^vv&gt;v&gt;&lt;^v^^&gt;&lt;vv^v&lt;^&gt;v&lt;&lt;&gt;v^^&lt;&gt;&lt;&gt;^&gt;vvv&gt;&lt;^^^&gt;^v^&gt;v&gt;&gt;^vvv&lt;^vv&gt;^^&gt;^&gt;&gt;v&lt;&gt;&gt;&lt;&lt;^v&lt;&lt;v^&gt;^&gt;&lt;&gt;vv^&lt;&lt;^^vv&gt;&lt;v&gt;&gt;^&lt;^&gt;&lt;^&lt;v&gt;^v&lt;v&gt;^&lt;&lt;&gt;^v^^&gt;v^&gt;&gt;^^^&lt;^vv&gt;v^&gt;&gt;&gt;vv&lt;&lt;&gt;v&gt;&gt;&gt;^&gt;v^^&lt;v^v^^v^&gt;&gt;v&lt;v&lt;&lt;v&gt;^&lt;&lt;&gt;&gt;vv&lt;&lt;^v&gt;v&lt;&lt;vv&lt;&lt;^&lt;^v&lt;^&lt;&gt;&lt;^^&gt;v&gt;&gt;v&gt;v^&gt;&gt;&lt;vv&lt;^v&lt;^&gt;^&gt;&gt;v&gt;^&gt;&lt;&lt;^&lt;&lt;&gt;^v&lt;v&gt;&gt;&gt;&lt;^^&lt;^&lt;&lt;&lt;v^^&gt;^&gt;vv&lt;&lt;&gt;^&lt;&gt;^&lt;v^&lt;&lt;^v&gt;vv&gt;^^^v&lt;^v&gt;&lt;v&lt;&lt;&lt;&lt;&lt;vv&gt;vv&gt;^^^^&gt;v&gt;v&gt;&lt;&lt;^&lt;&lt;&lt;^vv&gt;&lt;^&lt;&lt;&lt;&gt;&lt;v&gt;&gt;&lt;v^v&gt;v&lt;&lt;v^^&lt;v^&gt;v&gt;^v^v^&lt;^&lt;^vv&gt;vvv&lt;^^v&lt;&gt;v&lt;&lt;&lt;&lt;&gt;v&lt;v^&lt;vvv^^^&lt;&lt;^&lt;^&lt;&lt;&gt;^&lt;&lt;&gt;&lt;&lt;&lt;&gt;v&lt;^&gt;^^v&lt;^^v^&gt;vv&gt;vvv&gt;v&gt;&lt;v^^&lt;&lt;&gt;&gt;^&gt;&lt;^&gt;&gt;v&lt;&lt;vv&gt;v&lt;&lt;^^^v&lt;&lt;^v^^&gt;&lt;&gt;&lt;&lt;&lt;&gt;&lt;&lt;&gt;v&gt;^&lt;&lt;&gt;v&lt;&lt;&lt;^v&gt;&gt;&lt;v^v&lt;^v&lt;v^vv&gt;v&gt;&gt;&lt;&lt;^&lt;&gt;&lt;^v^^v&lt;v&gt;^&gt;^&gt;vvvv&lt;&lt;&gt;&lt;&lt;&gt;&gt;^&lt;vv&gt;^^&gt;&lt;v&lt;&gt;v&gt;v&lt;v^^&gt;^&gt;&lt;&gt;&gt;&gt;&lt;^&gt;&lt;&lt;&gt;&lt;&lt;&lt;^&lt;&gt;v^&gt;&lt;vv^^^^&gt;&gt;^v^&gt;v^&lt;&gt;&gt;v&gt;^^&gt;&lt;^&lt;^v^&lt;v^&gt;&gt;v&gt;^vvv&lt;&gt;&gt;v&lt;v^v&gt;&lt;&gt;^vvvv&lt;v^&lt;&lt;v^&lt;&lt;^^vv&gt;&gt;&lt;&lt;&lt;&lt;&lt;&lt;v&gt;&lt;&lt;&lt;v&lt;v^v^^&lt;v^^&lt;&gt;v&lt;&lt;&lt;&lt;^v&lt;&lt;&gt;&lt;&lt;v^&lt;^&gt;&lt;v&lt;vv&lt;v^v^&lt;v^^vv&lt;v^v&lt;&lt;&lt;&gt;^&lt;&lt;&gt;vv&lt;v&lt;^&gt;^&lt;&lt;&gt;&lt;vv&lt;&lt;vv&lt;v&lt;^&lt;^&lt;&gt;&gt;&lt;^^&lt;&lt;&gt;&gt;&gt;vv&gt;&gt;&gt;&gt;&gt;&gt;^v&lt;v&lt;&gt;&gt;v^v^^&lt;v^&lt;&lt;&lt;&lt;&gt;&gt;&lt;&lt;^v^^^&lt;&gt;^&lt;vv&gt;&gt;&gt;&gt;&lt;&gt;v^v^vvv^&gt;&gt;v&gt;&gt;&lt;v^v&lt;&lt;&lt;^v&gt;&gt;^^&lt;&lt;^^vv&gt;&lt;&lt;&lt;^^^&lt;&lt;&lt;v&gt;&lt;^^&gt;&gt;&gt;&gt;vvv^v&lt;^&gt;^^&gt;v&lt;^&lt;&gt;&lt;vv&lt;v&lt;&gt;v&gt;&gt;&gt;^vv&lt;&lt;^&lt;v&gt;^v^&gt;^&gt;^v&gt;v&gt;v^v^&gt;v&lt;&lt;v&gt;&gt;&lt;&gt;&gt;&lt;v^^&lt;&lt;^&gt;&gt;&gt;&gt;&lt;&lt;^v^&lt;&gt;^v&lt;vv&gt;&lt;&gt;vvv^&gt;v&gt;v&lt;v&lt;v^&gt;^&lt;&gt;&lt;&gt;&lt;&gt;^&gt;&gt;&gt;&lt;v&lt;&lt;&lt;v^vv&gt;&lt;&gt;^&gt;^^&lt;&lt;v^&gt;&gt;v^^&gt;^&lt;v&gt;&gt;&lt;&gt;&gt;&lt;&gt;v^v^^v&gt;&gt;&gt;&gt;vv&gt;&gt;^v&lt;&lt;^v^&lt;&gt;^&gt;v^^&gt;^^&lt;&lt;vvvvvvv&gt;^&lt;v^&lt;&lt;^&lt;&lt;&gt;&gt;&lt;&lt;&lt;^^^v^^^^v&lt;^&lt;&gt;v&lt;^^&lt;&gt;vv^^v^&lt;&gt;^&lt;&lt;^&gt;&gt;v&gt;v&lt;&lt;&lt;^^^^vvv^&lt;^&lt;&gt;&lt;&gt;v&lt;&lt;v^&lt;^&lt;&gt;&gt;&gt;&lt;&lt;&gt;&lt;&lt;&lt;v&lt;v&lt;v&gt;&lt;vv&gt;^^&lt;vv&lt;&lt;vv&lt;&lt;&lt;v&lt;^&gt;^^vv&lt;v&lt;&gt;&gt;&lt;&lt;&gt;&gt;&gt;^v&lt;&lt;&gt;^&gt;&gt;&gt;v^&gt;v&gt;^^&lt;&gt;^&lt;vv&lt;&gt;&lt;^&gt;v&gt;^&gt;&gt;&gt;&gt;&lt;&gt;^^&gt;v^^v&gt;^vv^^v^&gt;&lt;&lt;&lt;&gt;&gt;v&lt;&gt;v&lt;vv&lt;vv^v^v&lt;^v^&lt;^^&gt;&lt;&lt;&lt;&gt;&lt;vv^^&gt;^&lt;^&lt;&lt;&gt;v&gt;&gt;&gt;&gt;^&lt;&lt;v&gt;v&lt;v&gt;vv&lt;^&gt;&lt;^&lt;v&gt;&lt;&lt;^&gt;v&gt;&gt;v&gt;&lt;&lt;v&lt;&lt;^v^&lt;&gt;&gt;^&gt;&gt;&gt;^v^v&gt;v^^vv^&gt;^&lt;^^&gt;&gt;^&gt;&lt;^vv^^vv^&lt;&gt;&gt;^^^^&lt;^^&gt;&lt;&gt;&lt;v&lt;&gt;&gt;^&gt;&gt;^&gt;&lt;vv^&gt;^vvv&lt;^&lt;&lt;v^^&lt;&lt;&lt;&gt;^&gt;&lt;&gt;&gt;&gt;^^&lt;&gt;&lt;v&lt;v&lt;&gt;&lt;&lt;v^^^^^&lt;^&lt;^&lt;&lt;&gt;&gt;&lt;&lt;&gt;&gt;&gt;&gt;^&lt;&lt;&gt;&gt;&gt;^&lt;^v^&gt;&gt;&lt;&lt;^&gt;&gt;&gt;^&lt;&lt;v&gt;^&gt;&gt;&lt;&gt;^&lt;v&gt;^&lt;&gt;&lt;v&gt;^v^^vv&lt;&gt;&lt;^&gt;vv^^v^&lt;^^^v^vvv^&gt;&gt;&lt;&gt;&gt;v&lt;&lt;vv&lt;&gt;&gt;^&lt;^vvv&lt;&lt;^^&gt;&lt;vvv^^&lt;v&lt;&gt;vv^^&lt;&lt;&gt;&gt;&lt;v&gt;&gt;&lt;^^vvv&lt;&lt;&lt;^&gt;^&lt;&gt;&lt;^&gt;vv^&gt;&lt;^&lt;&lt;&gt;vv&lt;&lt;v&gt;&gt;vv&gt;v&gt;v^&lt;vv&gt;&lt;vv&gt;&lt;&lt;&gt;^^^^v^^^^&lt;v&gt;^&lt;&lt;^&gt;&lt;&gt;&lt;^^v^&gt;v&gt;^&gt;&gt;&lt;^&gt;&lt;&lt;&gt;v^&lt;v&gt;&gt;&gt;^vvv&gt;&gt;^&lt;^&lt;&gt;^^v^vv^^v&gt;&lt;&lt;vv^&lt;&gt;&gt;&gt;v&lt;&lt;&lt;&gt;v&gt;^&lt;&gt;v&lt;&lt;&gt;v^&gt;^&lt;&lt;&gt;&lt;&lt;&gt;&lt;v&lt;v&lt;v&lt;&gt;v^&gt;v&lt;&gt;&lt;^^&gt;^&lt;^v^^&gt;&lt;^&gt;vv&gt;^&gt;vv&lt;v&lt;^v&gt;vv&gt;^^&gt;&lt;&lt;&gt;vv^&gt;^v&lt;&lt;^&lt;&lt;^&lt;&lt;&gt;v&lt;v&lt;^&lt;v&gt;v&gt;&gt;^&gt;&lt;v^^v^v&gt;&gt;&gt;&gt;&lt;v^v^&lt;&lt;&lt;vv&lt;&lt;^^&lt;&gt;&gt;v^v&lt;^v&gt;v&gt;^^^v&lt;v&gt;&lt;v^^^vv&lt;&gt;v^v&lt;^&lt;&gt;v&gt;&lt;&gt;&lt;v^&lt;&gt;&gt;vv&gt;v&gt;&lt;&gt;v&gt;^v&lt;&gt;&lt;&lt;&lt;&lt;&lt;&lt;v&lt;&gt;&gt;v^vv&lt;&lt;&lt;&lt;v&lt;&lt;v&gt;&lt;^&lt;&gt;^&gt;&gt;&lt;&gt;^^vv&gt;^&lt;^&lt;&lt;&gt;vv&gt;&gt;vv&lt;vvv&gt;&gt;&lt;&gt;&lt;v&lt;&gt;&gt;&lt;^&lt;v&gt;^&gt;&lt;^&lt;&lt;v&gt;&gt;&lt;v&gt;&lt;v&gt;^&lt;v&gt;&gt;&lt;&gt;v^^^^v&lt;v^^v&lt;&gt;^^vv&lt;&gt;v&lt;&gt;v&gt;^vv^&gt;&lt;v^&lt;&lt;^&lt;&gt;^&lt;&gt;^^^&gt;v^&gt;&gt;&gt;v&gt;&lt;&lt;^&gt;&gt;v&lt;^v&lt;&gt;^^&lt;v&lt;&gt;&lt;v^v&lt;v&gt;v&lt;&gt;&lt;v&lt;vv&gt;&lt;&lt;&gt;v&lt;^&lt;^&gt;v&lt;&gt;v^&gt;v&gt;^^&lt;&lt;&lt;^^vv^&lt;&gt;&lt;&lt;&lt;&gt;&gt;v&gt;^^&lt;&gt;v&gt;&gt;&gt;&gt;&lt;v&lt;v&lt;^^^v&lt;v&lt;v^&gt;&lt;&lt;&gt;v^v&lt;&gt;v&gt;&gt;&lt;&lt;&lt;&lt;v^&lt;&gt;&lt;^&lt;&lt;^&gt;^&lt;vvv&lt;v^^v&gt;&gt;v^vv^&gt;&lt;^v^^&lt;&gt;^^&gt;&lt;&lt;v^&gt;&gt;vv&gt;^&lt;v^vv&lt;^^v&lt;&gt;&gt;vvv&lt;^v^&gt;&gt;^&lt;v&lt;v&gt;&gt;^&gt;^^&lt;&lt;^&gt;^&gt;^v&gt;&lt;&gt;&gt;^&lt;^^v&gt;^&gt;&gt;^^&lt;&gt;&lt;&gt;&gt;&gt;^^&gt;^^vvv&gt;v&lt;^^&lt;&gt;v^v^^&lt;v&lt;&lt;^&lt;v^v^&lt;&lt;&gt;v^v&lt;v&lt;&lt;v&lt;&gt;&gt;&gt;&lt;&lt;^^^&gt;&gt;v&gt;^vv&gt;^&gt;^^v&lt;&gt;^^&lt;&gt;v^^&lt;&gt;&lt;v&lt;v&lt;vvv^&lt;vv&lt;&lt;&gt;v^&gt;&lt;&lt;&gt;&lt;v&lt;&gt;vv&lt;&lt;^vvvv&gt;&lt;&lt;&lt;v&gt;v&gt;v^&gt;v^&lt;&gt;v^&gt;^&lt;v&lt;vvv^&gt;^&lt;&gt;^&gt;^^v&lt;&gt;&gt;&lt;&lt;&lt;&gt;&lt;v&lt;^^&gt;^v&lt;v&gt;^^v^v&lt;&lt;&lt;^v^&lt;&gt;^&lt;&gt;v&gt;^^&gt;v&lt;v&lt;v&gt;v&gt;^^&lt;&lt;&lt;&gt;&lt;&lt;^&gt;v&lt;v&lt;^vv^v&gt;&lt;^^&lt;&lt;vv&gt;^&lt;&lt;v&gt;&lt;&gt;^&gt;&gt;&gt;&gt;&gt;&lt;v^v&lt;&lt;&lt;^&gt;^v^v&lt;&lt;v&lt;&gt;vvv&lt;&lt;&gt;v&gt;v&gt;&gt;^v^v^&gt;&gt;&lt;&lt;&lt;&lt;&gt;v^&lt;v&lt;&gt;&lt;&lt;&gt;&gt;&gt;^&gt;&gt;^&gt;&gt;&lt;&lt;v&gt;";
-      
-      steps = replaceAll(steps, '&lt;', '<');
-      steps = replaceAll(steps, '&gt;', '>');
-      
-      function addHouseIfNew(x, y) {
-        for(var i = 0; i < houses.length; ++i) {
-          if(houses[i].x == x && houses[i].y == y) {
-            return;
-          }
-        }
-        var house = {};
-        house.x = x;
-        house.y = y;
-        houses.push(house);
-      }
-      
-      //var steps = $.trim($('#lol').text());
-      var santaX = 0;
-      var santaY = 0;
-      var roboSantaX = 0;
-      var roboSantaY = 0;
-      
-      var firstHouse = {'x' : 0, 'y' : 0};
-      var houses = [firstHouse];
-      
-      for(var i = 0; i < steps.length;++i) {
-        var move = steps[i];
-        
-        var x = 0;
-        var y = 0;
-        
-        if(move == '>') {
-          // RIGHT
-          if(i%2 == 0) {
-            ++santaX;
-            x = santaX;
-            y = santaY;
-          } else {
-            ++roboSantaX;
-            x = roboSantaX;
-            y = roboSantaY;
-          }
-        } else if(move == '<') {
-          // LEFT
-          if(i%2 == 0) {
-            --santaX;
-            x = santaX;
-            y = santaY;
-          } else {
-            --roboSantaX;
-            x = roboSantaX;
-            y = roboSantaY;
-          }
-        } else if(move == '^') {
-          // UP
-          if(i%2 == 0) {
-            ++santaY;
-            x = santaX;
-            y = santaY;
-          } else {
-            ++roboSantaY;
-            x = roboSantaX;
-            y = roboSantaY;
-          }
-        } else {
-          // DOWN
-          if(i%2 == 0) {
-            --santaY;
-            x = santaX;
-            y = santaY;
-          } else {
-            --roboSantaY;
-            x = roboSantaX;
-            y = roboSantaY;
-          }
-        }
-        addHouseIfNew(x, y);
-      }
-    
-      $('#result').text('Result = ' + houses.length);
-      
-    /*};
-    
-    $.ajax({
-      url: 'http://adventofcode.com/day/3/input',
-      type:'GET',
-      success: success,
-      dataType: 'json'
-    });*/
+  var md5 = new MD5();
+  var result = '';
+  var stringToHash = 'iwrupvqb';
+  for(var i = 0; result == ''; ++i) {
+    var thisHash = md5.hash(stringToHash + i.toString());
+    if(thisHash.length > 5 && thisHash.substring(0, 5) = '00000') {
+      result = stringToHash;
+    }
   }
-//});
-
+    
+  $('#result').text('Result = ' result);
+}
+  
 function replaceAll(str, find, replace) {
   return str.replace(new RegExp(find, 'g'), replace);
+}
+
+
+/**
+ * Usage example:
+ * var md5 = new MD5();
+ * alert(md5.hash('Dustin Fineout')); // 8844be37f4e8b3973b48b95b0c69f0b1
+**/
+function MD5()
+{
+  this.F = function(x,y,z) { return (x & y) | ((~x) & z); };
+  this.G = function(x,y,z) { return (x & z) | (y & (~z)); };
+  this.H = function(x,y,z) { return (x ^ y ^ z); };
+  this.I = function(x,y,z) { return (y ^ (x | (~z))); };
+  this.C = function(q,a,b,x,s,ac) { return this.addu(this.rol(this.addu(this.addu(a,q),this.addu(x,ac)),s),b); };
+  this.FF = function(a,b,c,d,x,s,ac) { return this.C((b & c) | ((~b) & d),a,b,x,s,ac); };
+  this.GG = function(a,b,c,d,x,s,ac) { return this.C((b & d) | (c & (~d)),a,b,x,s,ac); };
+  this.HH = function(a,b,c,d,x,s,ac) { return this.C(b ^ c ^ d,a,b,x,s,ac); };
+  this.II = function(a,b,c,d,x,s,ac) { return this.C(c ^ (b | (~d)),a,b,x,s,ac); };
+
+  this.hash = function(message)
+  {
+    var xl,x=[],k,aa,bb,cc,dd,a=0x67452301,b=0xEFCDAB89,c=0x98BADCFE,d=0x10325476;
+    x = this.convertToWordArray(this.utf8Encode(message));
+    xl = x.length;
+    for (var j = 0; j < xl; j += 16) {
+      aa=a; bb=b; cc=c; dd=d;
+      a=this.FF(a,b,c,d,x[j+0],7,0xD76AA478);
+      d=this.FF(d,a,b,c,x[j+1],12,0xE8C7B756);
+      c=this.FF(c,d,a,b,x[j+2],17,0x242070DB);
+      b=this.FF(b,c,d,a,x[j+3],22,0xC1BDCEEE);
+      a=this.FF(a,b,c,d,x[j+4],7,0xF57C0FAF);
+      d=this.FF(d,a,b,c,x[j+5],12,0x4787C62A);
+      c=this.FF(c,d,a,b,x[j+6],17,0xA8304613);
+      b=this.FF(b,c,d,a,x[j+7],22,0xFD469501);
+      a=this.FF(a,b,c,d,x[j+8],7,0x698098D8);
+      d=this.FF(d,a,b,c,x[j+9],12,0x8B44F7AF);
+      c=this.FF(c,d,a,b,x[j+10],17,0xFFFF5BB1);
+      b=this.FF(b,c,d,a,x[j+11],22,0x895CD7BE);
+      a=this.FF(a,b,c,d,x[j+12],7,0x6B901122);
+      d=this.FF(d,a,b,c,x[j+13],12,0xFD987193);
+      c=this.FF(c,d,a,b,x[j+14],17,0xA679438E);
+      b=this.FF(b,c,d,a,x[j+15],22,0x49B40821);
+      a=this.GG(a,b,c,d,x[j+1],5,0xF61E2562);
+      d=this.GG(d,a,b,c,x[j+6],9,0xC040B340);
+      c=this.GG(c,d,a,b,x[j+11],14,0x265E5A51);
+      b=this.GG(b,c,d,a,x[j+0],20,0xE9B6C7AA);
+      a=this.GG(a,b,c,d,x[j+5],5,0xD62F105D);
+      d=this.GG(d,a,b,c,x[j+10],9,0x2441453);
+      c=this.GG(c,d,a,b,x[j+15],14,0xD8A1E681);
+      b=this.GG(b,c,d,a,x[j+4],20,0xE7D3FBC8);
+      a=this.GG(a,b,c,d,x[j+9],5,0x21E1CDE6);
+      d=this.GG(d,a,b,c,x[j+14],9,0xC33707D6);
+      c=this.GG(c,d,a,b,x[j+3],14,0xF4D50D87);
+      b=this.GG(b,c,d,a,x[j+8],20,0x455A14ED);
+      a=this.GG(a,b,c,d,x[j+13],5,0xA9E3E905);
+      d=this.GG(d,a,b,c,x[j+2],9,0xFCEFA3F8);
+      c=this.GG(c,d,a,b,x[j+7],14,0x676F02D9);
+      b=this.GG(b,c,d,a,x[j+12],20,0x8D2A4C8A);
+      a=this.HH(a,b,c,d,x[j+5],4,0xFFFA3942);
+      d=this.HH(d,a,b,c,x[j+8],11,0x8771F681);
+      c=this.HH(c,d,a,b,x[j+11],16,0x6D9D6122);
+      b=this.HH(b,c,d,a,x[j+14],23,0xFDE5380C);
+      a=this.HH(a,b,c,d,x[j+1],4,0xA4BEEA44);
+      d=this.HH(d,a,b,c,x[j+4],11,0x4BDECFA9);
+      c=this.HH(c,d,a,b,x[j+7],16,0xF6BB4B60);
+      b=this.HH(b,c,d,a,x[j+10],23,0xBEBFBC70);
+      a=this.HH(a,b,c,d,x[j+13],4,0x289B7EC6);
+      d=this.HH(d,a,b,c,x[j+0],11,0xEAA127FA);
+      c=this.HH(c,d,a,b,x[j+3],16,0xD4EF3085);
+      b=this.HH(b,c,d,a,x[j+6],23,0x4881D05);
+      a=this.HH(a,b,c,d,x[j+9],4,0xD9D4D039);
+      d=this.HH(d,a,b,c,x[j+12],11,0xE6DB99E5);
+      c=this.HH(c,d,a,b,x[j+15],16,0x1FA27CF8);
+      b=this.HH(b,c,d,a,x[j+2],23,0xC4AC5665);
+      a=this.II(a,b,c,d,x[j+0],6,0xF4292244);
+      d=this.II(d,a,b,c,x[j+7],10,0x432AFF97);
+      c=this.II(c,d,a,b,x[j+14],15,0xAB9423A7);
+      b=this.II(b,c,d,a,x[j+5],21,0xFC93A039);
+      a=this.II(a,b,c,d,x[j+12],6,0x655B59C3);
+      d=this.II(d,a,b,c,x[j+3],10,0x8F0CCC92);
+      c=this.II(c,d,a,b,x[j+10],15,0xFFEFF47D);
+      b=this.II(b,c,d,a,x[j+1],21,0x85845DD1);
+      a=this.II(a,b,c,d,x[j+8],6,0x6FA87E4F);
+      d=this.II(d,a,b,c,x[j+15],10,0xFE2CE6E0);
+      c=this.II(c,d,a,b,x[j+6],15,0xA3014314);
+      b=this.II(b,c,d,a,x[j+13],21,0x4E0811A1);
+      a=this.II(a,b,c,d,x[j+4],6,0xF7537E82);
+      d=this.II(d,a,b,c,x[j+11],10,0xBD3AF235);
+      c=this.II(c,d,a,b,x[j+2],15,0x2AD7D2BB);
+      b=this.II(b,c,d,a,x[j+9],21,0xEB86D391);
+      a=this.addu(a,aa); b=this.addu(b,bb); c=this.addu(c,cc); d=this.addu(d,dd);
+    }
+    return (this.wordToHex(a)+this.wordToHex(b)+this.wordToHex(c)+this.wordToHex(d)).toLowerCase();
+  };
+
+  this.test = function()
+  {
+    if (this.hash('Dustin Fineout') == '8844be37f4e8b3973b48b95b0c69f0b1') {
+      return true;
+    }
+    return false;
+  };
+
+  this.addu = function(x, y)
+  {
+    var ls = (x & 0xFFFF) + (y & 0xFFFF);
+    return (((x >> 16) + (y >> 16) + (ls >> 16)) << 16) | (ls & 0xFFFF);
+  };
+
+  this.rol = function(v, s)
+  {
+    return (v << s) | (v >>> (32 - s));
+  };
+
+  this.utf8Encode = function(str)
+  {
+    return unescape(encodeURIComponent(str));
+  };
+
+  this.convertToWordArray = function(str)
+  {
+    var lWordCount;
+    var lMessageLength = str.length;
+    var lNumberOfWords_temp1=lMessageLength + 8;
+    var lNumberOfWords_temp2=(lNumberOfWords_temp1-(lNumberOfWords_temp1 % 64))/64;
+    var lNumberOfWords = (lNumberOfWords_temp2+1)*16;
+    var lWordArray=new Array(lNumberOfWords-1);
+    var lBytePosition = 0;
+    var lByteCount = 0;
+    while ( lByteCount < lMessageLength ) {
+      lWordCount = (lByteCount-(lByteCount % 4))/4;
+      lBytePosition = (lByteCount % 4)*8;
+      lWordArray[lWordCount] = (lWordArray[lWordCount] | (str.charCodeAt(lByteCount)<<lBytePosition));
+      lByteCount++;
+    }
+    lWordCount = (lByteCount-(lByteCount % 4))/4;
+    lBytePosition = (lByteCount % 4)*8;
+    lWordArray[lWordCount] = lWordArray[lWordCount] | (0x80<<lBytePosition);
+    lWordArray[lNumberOfWords-2] = lMessageLength<<3;
+    lWordArray[lNumberOfWords-1] = lMessageLength>>>29;
+    return lWordArray;
+  };
+
+  this.wordToHex = function(lValue)
+  {
+    var wordToHexValue="",wordToHexValue_temp="",lByte,lCount;
+    for (lCount = 0;lCount<=3;lCount++) {
+      lByte = (lValue>>>(lCount*8)) & 255;
+      wordToHexValue_temp = "0" + lByte.toString(16);
+      wordToHexValue = wordToHexValue + wordToHexValue_temp.substr(wordToHexValue_temp.length-2,2);
+    }
+    return wordToHexValue;
+  };
 }
