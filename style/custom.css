@@ -1,4 +1,8 @@
 @font-face {
-    font-family: 'ProximaNova';
-    src: url('../fonts/proxima_nova.utf);
+    font-family: 'ProximaNovaRegular';
+    src: url('fonts/Proxima_Nova_Alt_Regular.otf');
+}
+@font-face {
+    font-family: 'ProximaNovaBold';
+    src: url('fonts/Proxima_Nova_Alt_Bold.otf');
 }
