@@ -6,3 +6,8 @@
     font-family: 'ProximaNovaBold';
     src: url('fonts/Proxima_Nova_Alt_Bold.otf');
 }
+
+.title {
+    font-family: 'ProximaNovaRegular';
+    font-family: 'ProximaNovaBold';
+}
