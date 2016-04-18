@@ -2,9 +2,9 @@ function doIt() {
   
   var ruleOne = 'aeiou';
   var ruleTwo = 'repeated char';
-  var ruleThree = ['ab', 'cd', 'pq', 'xy']
+  var ruleThree = ['ab', 'cd', 'pq', 'xy'];
   
-  var input = '$('.input').text();
+  var input = '$('#lol').text();
   
   $('#result').text('Result = ' + result);
 }
