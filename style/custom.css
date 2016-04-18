@@ -6,7 +6,7 @@
     font-family: 'ProximaNovaBold';
     src: url('fonts/Proxima_Nova_Alt_Bold.otf');
 }
-body {
+.container {
     background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
 }
 .title {
@@ -15,5 +15,5 @@ body {
 }
 button, a {
     font-family: 'ProximaNovaRegular';
-    color:#FFF;
+    color:#FFF!important;
 }
