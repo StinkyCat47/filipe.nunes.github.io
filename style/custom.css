@@ -6,8 +6,10 @@
     font-family: 'ProximaNovaBold';
     src: url('fonts/Proxima_Nova_Alt_Bold.otf');
 }
-.container {
+.container-fluid { 
     background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    width:100%;
+    height:100%;
 }
 .title {
     font-family: 'ProximaNovaBold';
