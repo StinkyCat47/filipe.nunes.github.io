@@ -4,7 +4,7 @@ function doIt() {
   var ruleTwo = 'repeated char';
   var ruleThree = ['ab', 'cd', 'pq', 'xy']
   
-  var input = '';
+  var input = '$('.input').text();
   
   $('#result').text('Result = ' + result);
 }
