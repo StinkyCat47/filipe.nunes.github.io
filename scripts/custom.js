@@ -109,8 +109,8 @@ var trail =
 var markers = [];
 var paths = [];
 
-var oldIcon = '';
-var currentIcon = '';
+var oldIcon = '../style/images/black.jpg';
+var currentIcon = '../style/images/curr.jpg';
 
 function refreshMap() {
       $.each(markers, function(idx, marker) {
