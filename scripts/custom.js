@@ -135,7 +135,7 @@ function refreshMap() {
                       position: {lat: spot.lat, lng: spot.long },
                       map: map,
                       title: spot.title,
-                      //icon: icon
+                      icon: icon
                     });
                     markers.push(marker);
                   
