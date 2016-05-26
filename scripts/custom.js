@@ -115,10 +115,10 @@ var currentIcon = '';
 function refreshMap() {
       $.each(markers, function(idx, marker) {
            marker.setMap(null); 
-      }):
+      });
       $.each(paths, function(idx, path) {
            path.setMap(null); 
-      }):
+      });
       
       makers = [];
       paths = [];
