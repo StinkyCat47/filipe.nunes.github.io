@@ -152,7 +152,7 @@ function refreshMap() {
       $.each(trail, function(idx, spot) {
             if(spot.startTime < now) {
                   var icon = currentIcon;
-                  if(idx + 1 <= trail.count && trail[idx + 1].startTime < now) {
+                  if(idx + 1 <= trail.length && trail[idx + 1].startTime < now) {
                         icon = oldIcon;
                   }
                   
