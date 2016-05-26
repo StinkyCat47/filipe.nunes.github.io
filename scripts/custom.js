@@ -159,6 +159,34 @@ var trail =
             long:-75.577856,
             title:'Cartagena e Voo de regresso',
       }
+      ,
+      {
+            startTime : new Date(2016, 05, 12, 16, 00),
+            lat:4.6486259,
+            long:-74.2478956,
+            title:'Bogotá',
+      }
+      ,
+      {
+            startTime : new Date(2016, 05, 13, 08, 20),
+            lat:40.4381311,
+            long:3.8196226,
+            title:'Madrid',
+      },
+      ,
+      {
+            startTime : new Date(2016, 05, 13, 10, 45),
+            lat:38.7437396,
+            long:-9.2302442,
+            title:'Lisboa',
+      },
+      ,
+      {
+            startTime : new Date(2016, 05, 13, 19, 15),
+            lat:37.7450122,
+            long:-25.6959568,
+            title:'PDL',
+      }
       ];
 
 var markers = [];
@@ -178,11 +206,18 @@ function refreshMap() {
       paths = [];
       
       var now = new Date();
+      var gotCurrent = false;
       $.each(trail, function(idx, spot) {
-            if(spot.startTime < now) {
+            if(!gotCurrent && spot.startTime < now) {
                   var icon = currentIcon;
                   if(idx + 1 <= trail.length && trail[idx + 1].startTime < now) {
                         icon = oldIcon;
+                  } else {
+                    $('.curr').text(spot.title);
+                    
+                    $('.prev').text(idx > 0 ? trail[idx - 1].title : spot.title);
+                    
+                    gotCurrent = true;
                   }
                   
                   if(spot.map != undefined) {
@@ -215,8 +250,6 @@ function refreshMap() {
                   
                   newPath.setMap(map);
                   }
-                  
-                  
             }
       });
 }
