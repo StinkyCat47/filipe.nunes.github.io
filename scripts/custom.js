@@ -11,7 +11,7 @@ var currentIcon;
         });
         
         oldIcon = {
-    url: '../style/images/black.jpg',
+    url: '../style/images/black40.jpg',
     // This marker is 20 pixels wide by 32 pixels high.
     size: new google.maps.Size(40, 40),
     // The origin for this image is (0, 0).
@@ -21,7 +21,7 @@ var currentIcon;
   };
   
   currentIcon = {
-    url: '../style/images/curr.jpg',
+    url: '../style/images/curr40.jpg',
     // This marker is 20 pixels wide by 32 pixels high.
     size: new google.maps.Size(40, 40),
     // The origin for this image is (0, 0).
