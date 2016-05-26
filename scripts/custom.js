@@ -151,11 +151,13 @@ function refreshMap() {
                       strokeOpacity: 1.0,
                       strokeWeight: 2
                     });
-                  }
-                  
-                  paths.push(newPath);
+                    
+                    paths.push(newPath);
                   
                   newPath.setMap(map);
+                  }
+                  
+                  
             }
       });
 }
