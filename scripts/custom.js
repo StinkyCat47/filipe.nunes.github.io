@@ -12,8 +12,8 @@ var trail =
       [
       {
             startTime : new Date(2016, 04, 28),
-            lat:'4.6486259',
-            long:'-74.2478956',
+            lat:4.6486259,
+            long:-74.2478956,
             title:'Chegada a Bogotá',
       },
       {
