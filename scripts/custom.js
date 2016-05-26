@@ -6,8 +6,8 @@ var currentIcon;
   
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: 8.0642194, lng: -75.6622583},
-          zoom: 6
+          center: {lat: 23.7379078, lng: -38.3877419},
+          zoom: 4
         });
         
         oldIcon = {
@@ -36,11 +36,38 @@ var currentIcon;
 
 var trail = 
       [
+        {
+            startTime : new Date(2016, 04, 28),
+            lat:4.6486259,
+            long:-74.2478956,
+            title:'PDL',
+            map: {
+              center:{lat:23.7379078, lng: -38.3877419},
+              zoom:4
+            }
+            
+      },
+      {
+            startTime : new Date(2016, 04, 28),
+            lat:4.6486259,
+            long:-74.2478956,
+            title:'Lisboa',
+      },
+      {
+            startTime : new Date(2016, 04, 28),
+            lat:4.6486259,
+            long:-74.2478956,
+            title:'Madrid',
+      },
       {
             startTime : new Date(2016, 04, 28),
             lat:4.6486259,
             long:-74.2478956,
             title:'Chegada a Bogotá',
+            map: {
+              center:{lat: 8.0642194, lng: -75.6622583},
+              zoom:6
+            }
       },
       {
             startTime : new Date(2016, 04, 29),
@@ -154,6 +181,11 @@ function refreshMap() {
                   var icon = currentIcon;
                   if(idx + 1 <= trail.length && trail[idx + 1].startTime < now) {
                         icon = oldIcon;
+                  }
+                  
+                  if(spot.map != undefined) {
+                    map.setCenter(spot.map.center);
+                    map.setZoom(spot.map.zoom);
                   }
                   
                   var marker = new google.maps.Marker({
