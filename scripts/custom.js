@@ -1,5 +1,14 @@
 function doIt() {
   
+  var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: -34.397, lng: 150.644},
+          zoom: 8
+        });
+      }
+  
+  
   var ruleOne = 'aeiou';
   var ruleTwo = 'repeated char';
   var ruleThree = ['ab', 'cd', 'pq', 'xy'];
