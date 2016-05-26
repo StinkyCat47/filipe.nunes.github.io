@@ -37,7 +37,7 @@ var currentIcon;
 var trail = 
       [
         {
-            startTime : new Date(2016, 04, 28),
+            startTime : new Date(2016, 04, 26),
             lat:4.6486259,
             long:-74.2478956,
             title:'PDL',
@@ -48,13 +48,13 @@ var trail =
             
       },
       {
-            startTime : new Date(2016, 04, 28),
+            startTime : new Date(2016, 04, 26),
             lat:4.6486259,
             long:-74.2478956,
             title:'Lisboa',
       },
       {
-            startTime : new Date(2016, 04, 28),
+            startTime : new Date(2016, 04, 27),
             lat:4.6486259,
             long:-74.2478956,
             title:'Madrid',
