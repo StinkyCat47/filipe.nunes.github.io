@@ -49,8 +49,8 @@ var trail =
       },
       {
             startTime : new Date(2016, 04, 26),
-            lat:4.6486259,
-            long:-74.2478956,
+            lat:38.7437396,
+            long:-9.2302442,
             title:'Lisboa',
       },
       {
