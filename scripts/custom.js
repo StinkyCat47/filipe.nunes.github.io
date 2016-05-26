@@ -125,9 +125,9 @@ function refreshMap() {
       
       var now = new Date(2017,02,02);
       $.each(trail, function(idx, spot) {
-            if(spot.startDate < now) {
+            if(spot.startTime < now) {
                   var icon = currentIcon;
-                  if(idx + 1 <= trail.count && trail[idx + 1].startDate < now) {
+                  if(idx + 1 <= trail.count && trail[idx + 1].startTime < now) {
                         icon = oldIcon;
                   }
                   
