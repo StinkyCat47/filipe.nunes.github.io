@@ -43,7 +43,7 @@ var deadline = 'June 13 2016 19:15:00 GMT+00:00';
           $('.hours').text(nd.getHours() + ':' + nd.getMinutes());
           
           var t = getTimeRemaining(deadline);
-          $('.eta').text(' ' + t.days +'dias ' + t.hours + 'horas ' + t.minutes + 'minutos ' + t.seconds + 'segundos ';
+          $('.eta').text(' ' + t.days +'dias ' + t.hours + 'horas ' + t.minutes + 'minutos ' + t.seconds + 'segundos ');
           if(t.total<=0){
             clearInterval(timeinterval);
           }
