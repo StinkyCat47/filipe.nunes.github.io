@@ -3,7 +3,9 @@ var map;
 var oldIcon;
   
 var currentIcon;
-  
+
+var deadline = 'June 13 2016 19:15:00 GMT+00:00';
+
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
           center: {lat: 38.7821759, lng: -16.2216661},
@@ -32,7 +34,38 @@ var currentIcon;
   
         
         refreshMap();
+        
+        
+        var timeinterval = setInterval(function(){
+          var d = new Date();
+          var utc = d.getTime() - (d.getTimezoneOffset() * 60000);
+          var nd = new Date(utc + (3600000*5));
+          $('.hours').text(nd.getHours() + ':' nd.getMinutes());
+          
+          var t = getTimeRemaining(deadline);
+          $('.eta').text(' 't.days +'dias ' + t.hours + 'horas ' + t.minutes + 'minutos ' + t.seconds + 'segundos ';
+          if(t.total<=0){
+            clearInterval(timeinterval);
+          }
+        },1000);
+        
       }
+
+
+function getTimeRemaining(endtime){
+  var t = Date.parse(endtime) - Date.parse(new Date());
+  var seconds = Math.floor( (t/1000) % 60 );
+  var minutes = Math.floor( (t/1000/60) % 60 );
+  var hours = Math.floor( (t/(1000*60*60)) % 24 );
+  var days = Math.floor( t/(1000*60*60*24) );
+  return {
+    'total': t,
+    'days': days,
+    'hours': hours,
+    'minutes': minutes,
+    'seconds': seconds
+  };
+}
 
 var trail = 
       [
