@@ -6,7 +6,7 @@ var currentIcon;
   
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: 23.7379078, lng: -38.3877419},
+          center: {lat: 38.7821759, lng: -16.2216661},
           zoom: 4
         });
         
@@ -40,12 +40,7 @@ var trail =
             startTime : new Date(2016, 04, 26),
             lat:37.7450122,
             long:-25.6959568,
-            title:'PDL',
-            map: {
-              center:{lat:23.7379078, lng: -38.3877419},
-              zoom:4
-            }
-            
+            title:'PDL'
       },
       {
             startTime : new Date(2016, 04, 26),
