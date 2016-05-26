@@ -109,8 +109,25 @@ var trail =
 var markers = [];
 var paths = [];
 
-var oldIcon = '../style/images/black.jpg';
-var currentIcon = '../style/images/curr.jpg';
+var oldIcon = {
+    url: '../style/images/black.jpg',
+    // This marker is 20 pixels wide by 32 pixels high.
+    size: new google.maps.Size(20, 32),
+    // The origin for this image is (0, 0).
+    origin: new google.maps.Point(0, 0),
+    // The anchor for this image is the base of the flagpole at (0, 32).
+    anchor: new google.maps.Point(0, 32)
+  };
+  
+var currentIcon = {
+    url: '../style/images/curr.jpg',
+    // This marker is 20 pixels wide by 32 pixels high.
+    size: new google.maps.Size(20, 32),
+    // The origin for this image is (0, 0).
+    origin: new google.maps.Point(0, 0),
+    // The anchor for this image is the base of the flagpole at (0, 32).
+    anchor: new google.maps.Point(0, 32)
+  };
 
 function refreshMap() {
       $.each(markers, function(idx, marker) {
@@ -123,7 +140,7 @@ function refreshMap() {
       makers = [];
       paths = [];
       
-      var now = new Date(2017,02,02);
+      var now = new Date(2016,05,02);
       $.each(trail, function(idx, spot) {
             if(spot.startTime < now) {
                   var icon = currentIcon;
