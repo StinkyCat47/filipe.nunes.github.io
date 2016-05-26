@@ -38,8 +38,8 @@ var trail =
       [
         {
             startTime : new Date(2016, 04, 26),
-            lat:4.6486259,
-            long:-74.2478956,
+            lat:37.7450122,
+            long:-25.6959568,
             title:'PDL',
             map: {
               center:{lat:23.7379078, lng: -38.3877419},
@@ -54,20 +54,27 @@ var trail =
             title:'Lisboa',
       },
       {
-            startTime : new Date(2016, 04, 27),
+            startTime : new Date(2016, 04, 27, 07, 15),
+            lat:38.7437396,
+            long:-9.2302442,12,
+            title:'Madrid',
+      },
+      {
+            startTime : new Date(2016, 04, 27, 21, 00 ),
             lat:4.6486259,
             long:-74.2478956,
-            title:'Madrid',
+            title:'Bogotá',
+            map: {
+              center:{lat: 8.0642194, lng: -75.6622583},
+              zoom:6
+            }
       },
       {
             startTime : new Date(2016, 04, 28),
             lat:4.6486259,
             long:-74.2478956,
             title:'Chegada a Bogotá',
-            map: {
-              center:{lat: 8.0642194, lng: -75.6622583},
-              zoom:6
-            }
+            
       },
       {
             startTime : new Date(2016, 04, 29),
@@ -175,7 +182,7 @@ function refreshMap() {
       makers = [];
       paths = [];
       
-      var now = new Date(2016,05,02);
+      var now = new Date();
       $.each(trail, function(idx, spot) {
             if(spot.startTime < now) {
                   var icon = currentIcon;
