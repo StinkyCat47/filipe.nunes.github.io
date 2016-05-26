@@ -212,10 +212,9 @@ function refreshMap() {
                   var icon = currentIcon;
                   if(idx + 1 <= trail.length && trail[idx + 1].startTime < now) {
                         icon = oldIcon;
+                        $('.next').text(trail[idx + 1]-title);
                   } else {
                     $('.curr').text(spot.title);
-                    
-                    $('.prev').text(idx > 0 ? trail[idx - 1].title : spot.title);
                     
                     gotCurrent = true;
                   }
