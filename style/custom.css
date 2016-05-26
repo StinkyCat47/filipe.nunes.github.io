@@ -29,3 +29,11 @@ button, a {
         margin-right:0;
     }
 }
+
+.refresh {
+        background-image: url(images/refresh.png);
+    background-size: 30px 30px;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
