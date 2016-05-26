@@ -40,7 +40,7 @@ var deadline = 'June 13 2016 19:15:00 GMT+00:00';
           var d = new Date();
           var utc = d.getTime() - (d.getTimezoneOffset() * 60000);
           var nd = new Date(utc + (3600000*-5));
-          $('.hours').text(nd.getHours().length > 9 ? nd.getHours() : '0' + nd.getHours() + ':' + nd.getMinutes().length > 9 ? nd.getMinutes() : '0' + nd.getMinutes());
+          $('.hours').text(nd.getHours() > 9 ? nd.getHours() : '0' + nd.getHours() + ':' + nd.getMinutes() > 9 ? nd.getMinutes() : '0' + nd.getMinutes());
           
           var t = getTimeRemaining(deadline);
           $('.eta').text(' ' + t.days +'dias ' + t.hours + 'horas ' + t.minutes + 'minutos ' + t.seconds + 'segundos ');
