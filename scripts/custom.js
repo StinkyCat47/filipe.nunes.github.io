@@ -4,6 +4,8 @@ var map;
           center: {lat: 8.0642194, lng: 150.644},
           zoom: 6
         });
+        
+        refreshMap();
       }
 
 var trail = 
