@@ -123,7 +123,7 @@ function refreshMap() {
       makers = [];
       paths = [];
       
-      var now = new Date().setFullYear(2017);
+      var now = new Date(2017,02,02);
       $.each(trail, function(idx, spot) {
             if(spot.startDate < now) {
                   var icon = currentIcon;
