@@ -139,7 +139,7 @@ function refreshMap() {
                     });
                     markers.push(marker);
                   
-                  if(idx < 0) {  
+                  if(idx > 0) {  
                         var path = [
                             {lat: spot.lat, lng: spot.long},
                             {lat: trail[idx - 1].lat, lng: trail[idx - 1].long}
