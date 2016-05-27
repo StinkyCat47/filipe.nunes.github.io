@@ -37,11 +37,12 @@ var deadline = 'June 13 2016 19:15:00 GMT+00:00';
         
         
         var timeinterval = setInterval(function(){
-          var d = moment(Date(), "America/Bogota");
+          var nd = moment().tz("America/Bogota");
+          $('.hours').text((nd.hours() > 9 ? nd.hours() : '0' + nd.hours()) + ':' + (nd.minutes() > 9 ? nd.minutes() : '0' + nd.minutes()));
           //var d = new Date();
-          var utc = d.getTime() - (d.getTimezoneOffset() * 60000);
-          var nd = new Date(utc + (3600000*-5));
-          $('.hours').text((nd.getHours() > 9 ? nd.getHours() : '0' + nd.getHours()) + ':' + (nd.getMinutes() > 9 ? nd.getMinutes() : '0' + nd.getMinutes()));
+          //var utc = d.getTime() - (d.getTimezoneOffset() * 60000);
+          //var nd = new Date(utc + (3600000*-5));
+          //$('.hours').text((nd.getHours() > 9 ? nd.getHours() : '0' + nd.getHours()) + ':' + (nd.getMinutes() > 9 ? nd.getMinutes() : '0' + nd.getMinutes()));
           
           var t = getTimeRemaining(deadline);
           $('.eta').text(' ' + t.days +'dias ' + t.hours + 'horas ' + t.minutes + 'minutos ' + t.seconds + 'segundos ');
