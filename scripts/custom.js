@@ -84,7 +84,7 @@ var trail =
       {
             startTime : new Date(2016, 04, 27, 07, 15),
             lat:40.4381311,
-            long:3.8196226,
+            long:-3.8196194,
             title:'Madrid',
       },
       {
@@ -203,7 +203,7 @@ var trail =
       {
             startTime : new Date(2016, 05, 13, 08, 20),
             lat:40.4381311,
-            long:3.8196226,
+            long:-3.8196226,
             title:'Madrid',
       },
       ,
