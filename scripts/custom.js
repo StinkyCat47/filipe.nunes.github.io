@@ -37,7 +37,8 @@ var deadline = 'June 13 2016 19:15:00 GMT+00:00';
         
         
         var timeinterval = setInterval(function(){
-          var d = new Date();
+          var d = moment(Date(), "America/Bogota");
+          //var d = new Date();
           var utc = d.getTime() - (d.getTimezoneOffset() * 60000);
           var nd = new Date(utc + (3600000*-5));
           $('.hours').text((nd.getHours() > 9 ? nd.getHours() : '0' + nd.getHours()) + ':' + (nd.getMinutes() > 9 ? nd.getMinutes() : '0' + nd.getMinutes()));
