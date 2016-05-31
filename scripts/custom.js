@@ -95,8 +95,8 @@ var trail =
             long:-74.2478956,
             title:'Bogotá',
             map: {
-              center:{lat: 8.0642194, lng: -75.6622583},
-              zoom:6
+              center:{lat: 7.0404772, lng: -74.8932154},
+              zoom:7
             }
       },
       {
@@ -127,6 +127,10 @@ var trail =
             lat:6.268844,
             long:-75.6664331,
             title:'Medellin',
+            map: {
+              center:{lat: 5.965525, lng: -75.0635662},
+              zoom:7
+            }
       },
       {
             startTime : new Date(2016, 05, 02),
@@ -145,12 +149,20 @@ var trail =
             lat:10.4003035,
             long:-75.577856,
             title:'Cartagena',
+            map: {
+              center:{lat: 8.4721449, lng: -74.5691814},
+              zoom:6
+            }
       },
       {
             startTime : new Date(2016, 05, 05),
             lat:11.5344825,
             long:-72.932166,
             title:'Rioacha',
+            map: {
+              center:{lat: 10.5674717, lng: -73.9138972},
+              zoom:7
+            }
       },
       {
             startTime : new Date(2016, 05, 06),
@@ -163,6 +175,10 @@ var trail =
             lat:12.4576677,
             long:-71.6700217,
             title:'Punta Gallinas',
+            map: {
+              center:{lat: 11.888629, lng: -72.3259505},
+              zoom:8
+            }
       },
       {
             startTime : new Date(2016, 05, 08),
@@ -175,18 +191,30 @@ var trail =
             lat:11.2450534,
             long:-73.5619758,
             title:'Palomino',
+            map: {
+              center:{lat:11.3369417, lng: -73.3677994},
+              zoom:7
+            }
       },
       {
             startTime : new Date(2016, 05, 10),
             lat:11.2882469,
             long:-74.1538396,
             title:'Parque Nacional Tayrona',
+            map: {
+              center:{lat:11.294428, lng: -74.1814234},
+              zoom:7
+            }
       },
       {
             startTime : new Date(2016, 05, 11),
             lat:10.4003035,
             long:-75.577856,
             title:'Cartagena',
+            map: {
+              center:{lat: 8.4721449, lng: -74.5691814},
+              zoom:6
+            }
       },
       {
             startTime : new Date(2016, 05, 12),
@@ -200,6 +228,10 @@ var trail =
             lat:4.6486259,
             long:-74.2478956,
             title:'Bogotá',
+            map: {
+              center:{lat: 7.0404772, lng: -74.8932154},
+              zoom:7
+            }
       }
       ,
       {
@@ -207,6 +239,11 @@ var trail =
             lat:40.4381311,
             long:-3.8196226,
             title:'Madrid',
+            map: {
+              center: {lat: 38.7821759, lng: -16.2216661},
+          zoom: 4
+            }
+            
       },
       ,
       {
