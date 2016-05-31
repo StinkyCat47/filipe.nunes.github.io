@@ -116,6 +116,10 @@ var trail =
             lat:4.6373867,
             long:-75.5751544,
             title:'Salento',
+            map: {
+              center:{lat:4.014507, lng: -75.5743678},
+              zoom:9
+            }
       },{
             startTime : new Date(2016, 04, 31),
             lat:4.6369442,
