@@ -95,8 +95,8 @@ var trail =
             long:-74.2478956,
             title:'Bogotá',
             map: {
-              center:{lat: 7.0404772, lng: -74.8932154},
-              zoom:7
+              center:{lat: 4.1569663, lng: -74.1351588},
+              zoom:9
             }
       },
       {
@@ -128,8 +128,8 @@ var trail =
             long:-75.6664331,
             title:'Medellin',
             map: {
-              center:{lat: 5.965525, lng: -75.0635662},
-              zoom:7
+              center:{lat:5.6266905, lng: -75.0635662},
+              zoom:9
             }
       },
       {
