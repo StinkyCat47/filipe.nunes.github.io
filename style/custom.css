@@ -1,3 +1,7 @@
+.font {
+ font-size:100;   
+}
+
 @font-face {
     font-family: 'ProximaNovaRegular';
     src: url('fonts/Proxima_Nova_Alt_Regular.otf');
