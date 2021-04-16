@@ -24,7 +24,7 @@
             var outputStr = '';
             var fontTestString = 'ABC abc 123';
             for (var loop = 0; loop < allFonts.length; loop++) {
-                outputStr += '<span class="font" style="font-family: ' + allFonts[loop] + ';">' + allFonts[loop] + ' 7</span><br />\n';
+                outputStr += '<span class="font" style="font-family: ' + allFonts[loop] + ';">'' 7</span><br />\n'; // + allFonts[loop] + 
             }
             document.getElementById('fontList').innerHTML = outputStr;
         }
