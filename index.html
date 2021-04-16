@@ -10,8 +10,29 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Prompt:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    
+    <script type="text/javascript">
+    <!--
+        function getFonts() {
+
+            // get list of fonts, and sort alphabetically
+            var allFonts = [];
+            for (var loop = 1; loop < dlgHelper.fonts.count + 1; loop++) allFonts[loop - 1] = dlgHelper.fonts(loop);
+            allFonts.sort();
+
+            // create output list, and include samples of each font
+            var outputStr = '';
+            var fontTestString = 'ABC abc 123';
+            for (var loop = 0; loop < allFonts.length; loop++) {
+                outputStr += '<span style="font-family: ' + allFonts[loop] + ';">' + allFonts[loop] + '</span><br />\n';
+            }
+            document.getElementById('fontList').innerHTML = outputStr;
+        }
+     //-->
+    </script>
+    
   </head>
-  <body>
+  <!--<body>
     <div class="container-fluid">
       <div class="container">
         <div class="row">
@@ -33,7 +54,17 @@
         </div>
       </div>
     </div>
-    
+    -->
+  
+  
+<body onload="getFonts();">
+    <object id="dlgHelper" classid="clsid:3050F819-98B5-11CF-BB82-00AA00BDCE0B" width="0px"
+        height="0px">
+    </object>
+    <div id="fontList">
+    </div>
+</body>
+  
     <!-- jQuery  -->
     <script src="scripts/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
